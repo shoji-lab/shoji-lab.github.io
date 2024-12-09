@@ -31,13 +31,19 @@ permalink: /news/
 
 <style>
 /* カテゴリボタン */
+<style>
+/* カテゴリボタンの親コンテナ */
 .category-buttons {
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap; /* ボタンが画面幅を超えたら折り返し */
+  gap: 10px; /* ボタン間の隙間 */
+  justify-content: center; /* ボタンを中央揃え */
 }
 
+/* カテゴリボタン */
 .category-button {
   padding: 10px 20px;
-  margin-right: 10px;
   font-size: 14px;
   color: #007BFF;
   background-color: #f8f9fa;
@@ -45,12 +51,25 @@ permalink: /news/
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  flex: 1 1 auto; /* ボタンを同じサイズに広げる */
+  text-align: center;
+  max-width: 150px; /* ボタンの最大幅 */
 }
 
 .category-button.active, .category-button:hover {
   background-color: #007BFF;
   color: white;
 }
+
+/* スマートフォン対応（画面幅600px以下） */
+@media (max-width: 600px) {
+  .category-button {
+    flex: 1 0 100%; /* ボタンを1列に配置 */
+    max-width: none; /* 最大幅を解除 */
+  }
+}
+</style>
+
 
 /* ニュースリスト */
 .news-list ul {
