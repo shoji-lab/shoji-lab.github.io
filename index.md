@@ -9,3 +9,5 @@ layout: home
 ---
 
 こんにちは。莊司研究室です！
+
+![写真](/assets/img/index/index.jpg "研究室")
