@@ -1,8 +1,23 @@
 ---
-layout: page
+layout: base
 title: News
 permalink: /news/
 ---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
@@ -44,3 +59,5 @@ permalink: /news/
     {%- endif %}
 
   {%- endif -%}
+
+</div>
