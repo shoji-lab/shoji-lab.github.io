@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 title: News
 permalink: /news/
 ---
@@ -17,3 +17,32 @@ permalink: /news/
 </div>
 
 
+<style>
+.news-list {
+  padding: 20px;
+}
+
+.news-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li {
+  margin-bottom: 10px;
+}
+
+.news-date {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.news-title {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.news-title:hover {
+  text-decoration: underline;
+}
+
+</style>
