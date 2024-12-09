@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-<div class="news-list">
+<div class="post-list">
   {% assign posts = site.posts %}
   <ul>
     {% for post in posts %}
@@ -17,7 +17,7 @@ permalink: /news/
 </div>
 
 
-<style>
+<!-- <style>
 .news-list {
   padding: 20px;
 }
@@ -45,4 +45,4 @@ permalink: /news/
   text-decoration: underline;
 }
 
-</style>
+</style> -->
