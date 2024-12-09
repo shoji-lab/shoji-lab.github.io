@@ -6,7 +6,7 @@ permalink: /news/
 
 莊司研究室の活動を掲載しています！
 
-<!-- <div class="news-list">
+<div class="news-list">
   {% assign posts = site.posts %}
   <ul>
     {% for post in posts %}
@@ -16,9 +16,9 @@ permalink: /news/
       </li>
     {% endfor %}
   </ul>
-</div> -->
+</div>
 
-<div class="news-list">
+<!-- <div class="news-list">
   {% assign categories = site.posts | map: "categories" | uniq %}
   {% for category in categories %}
     <h2>{{ category }}</h2>
@@ -26,13 +26,13 @@ permalink: /news/
     <ul>
       {% for post in category_posts %}
         <li>
-          <span class="news-date">{{ post.date | date: "%Y年%-m月%-d日" }}</span>
+          <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span>
           <a href="{{ post.url | relative_url }}" class="news-title">{{ post.title }}</a>
         </li>
       {% endfor %}
     </ul>
   {% endfor %}
-</div>
+</div> -->
 
 <style>
 .news-list {
