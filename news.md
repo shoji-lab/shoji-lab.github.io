@@ -31,7 +31,6 @@ permalink: /news/
 
 <style>
 /* カテゴリボタン */
-<style>
 /* カテゴリボタンの親コンテナ */
 .category-buttons {
   margin-bottom: 20px;
@@ -68,8 +67,6 @@ permalink: /news/
     max-width: none; /* 最大幅を解除 */
   }
 }
-</style>
-
 
 /* ニュースリスト */
 .news-list ul {
