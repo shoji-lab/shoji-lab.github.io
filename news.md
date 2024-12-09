@@ -31,16 +31,14 @@ permalink: /news/
 
 <style>
 /* カテゴリボタン */
-/* カテゴリボタンの親コンテナ */
 .category-buttons {
   margin-bottom: 20px;
   display: flex;
-  flex-wrap: wrap; /* ボタンが画面幅を超えたら折り返し */
-  gap: 10px; /* ボタン間の隙間 */
-  justify-content: center; /* ボタンを中央揃え */
+  flex-wrap: wrap; 
+  gap: 10px; 
+  justify-content: center; 
 }
 
-/* カテゴリボタン */
 .category-button {
   padding: 10px 20px;
   font-size: 14px;
@@ -50,9 +48,9 @@ permalink: /news/
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
-  flex: 1 1 auto; /* ボタンを同じサイズに広げる */
+  flex: 1 1 auto; 
   text-align: center;
-  max-width: 150px; /* ボタンの最大幅 */
+  max-width: 150px; 
 }
 
 .category-button.active, .category-button:hover {
@@ -60,7 +58,7 @@ permalink: /news/
   color: white;
 }
 
-/* スマートフォン対応（画面幅600px以下） */
+
 @media (max-width: 600px) {
   .category-button {
     flex: 1 0 100%; /* ボタンを1列に配置 */
@@ -87,7 +85,7 @@ permalink: /news/
 .news-title {
   font-size: 16px;
   font-weight: bold;
-  color: #007BFF;
+  color: black;
   text-decoration: none;
 }
 
