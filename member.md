@@ -14,3 +14,5 @@ permalink: /member/
 # [渡邊 磨王斗](maoto_watanabe)
 
 ## B3
+
+## 卒業生
