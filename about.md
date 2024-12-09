@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 莊司研究室
+title: About
 permalink: /about/
 ---
 
