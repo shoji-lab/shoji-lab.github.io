@@ -5,3 +5,6 @@ permalink: /member/yoshiyuki_shoji
 ---
 
 莊司 慶行
+
+
+[WebSite](https://shoji-lab.jp/)
