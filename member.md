@@ -14,5 +14,10 @@ permalink: /member/
 # [渡邊 磨王斗](maoto_watanabe)
 
 ## B3
+# [杉田 大知](daichi_sugita)
+# [中野 暁登](akito_nakano)
+# [矢崎 直音](naoto_yazaki)
+# [山口 俊](shun_yamaguchi)
+# [和田 泰幸](yasuyuki_wada)
 
 ## 卒業生
