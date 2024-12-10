@@ -1,7 +1,5 @@
 ---
 layout: contact
-title: Contact
+title: Contact Us
 permalink: /contact/
 ---
-
-iiiiii
