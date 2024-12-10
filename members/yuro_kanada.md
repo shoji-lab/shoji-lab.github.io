@@ -8,6 +8,8 @@ permalink: /member/yuro_kanada
 ## 所属
 静岡大学情報学部行動情報学科
 
+aaaaaaaa
+
 ## 趣味
 
 ## 研究テーマ
