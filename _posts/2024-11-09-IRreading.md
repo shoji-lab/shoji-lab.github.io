@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【NEWS】学部4年生がIR Readingで3件の論文紹介をおこないました！"
+title: "【発表】学部4年生がIR Readingで3件の論文紹介をおこないました！"
 categories: 発表
 ---
 こんにちは、B4の大江です。
