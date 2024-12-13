@@ -10,7 +10,8 @@ layout: home
 
 <style>
     span.title{
-        font-size:300%
+        font-size:400%
+        font-weight:bolder;
     }
 </style>
 
