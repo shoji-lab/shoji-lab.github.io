@@ -5,9 +5,6 @@ permalink: /about/
 ---
 
 <style>
-    body{
-        background-color: gainsboro;
-    }
     span.li{
         font-weight: bolder;
         color: black;
