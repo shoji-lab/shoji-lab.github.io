@@ -73,18 +73,6 @@ permalink: /about/
 </p>
 </div>
 
-<!-- <div class=block>
-    <div class="topic">
-    <span class=topictitle>多人数の意見を集約する情報検索技術</span>
-    </div>
-
-    <div class="topic">
-    <span class=topictitle></span>
-    </div>
-
-</div>
--->
-
 <div class="block">
     <h1>莊司研究室で研究したい方へ</h1>
     莊司研究室では、以下のような学生の方と一緒に研究をしたいと考えています。
@@ -105,6 +93,7 @@ permalink: /about/
     修士進学を考えていない（学部4年生で卒業して就職する予定である）学生の方は、避けたほうが無難です。
     </p>
     </div>
+
     <div class="target">
     <strong>他大学からの編入を考えている方向け情報</strong><br>
     <p>
@@ -117,14 +106,6 @@ permalink: /about/
 
     <div class="target">
     <strong>For Overseas Students</strong><br>
-    <!-- 私たちは、情報アクセス技術分野に熱意と興味のある学生を受け入れています。
-    ただし、私たちの研究室での活動には、高度なコンピュータスキルと、英語能力が求められます。
-    
-    注意事項：
-    現在、この研究室はとても若いので、海外の学生の受け入れを一時的に制限しています。
-    一般的に、1人の海外からの修士1年生が快適に研究・勉強するためには、少なくとも何名かの日本人の先輩が必要だと考えられています。
-    現在受け入れをしていませんが、どうしても興味がある場合は個別に私にメールで連絡をください。
-    もうすでに国際学会発表経験があるなど、友達からのサポートがなくても十分卒業できる場合には、個別に判断します。 -->
     <p>
     We welcome students who are enthusiastic and passionate about exploring the field of information access technology. To join our lab, advanced computer skills and proficiency in English are essential.
     </p>
@@ -132,7 +113,7 @@ permalink: /about/
     <span class="caution">Important Notes:</span>
     We are very sorry that... 
     <br> As our lab is still in its early stages, we are temporarily limiting the number of international students we can accept. 
-    Typically, we find that first-year master’s students from abroad benefit from having a few senior local students to collaborate with and support their research and studies.
+    Typically, we find that first-year master's students from abroad benefit from having a few senior local students to collaborate with and support their research and studies.
     At this time, we are not accepting new students. 
     However, if you are deeply interested in joining our lab, feel free to contact us via email to discuss your situation.
     For students with prior independent research experience (such as publishing papers at international conferences) we are open to discussing opportunities on a case-by-case basis.
@@ -172,4 +153,3 @@ permalink: /about/
         前に言ったことを忘れている。
         </div>
 </div>
-
