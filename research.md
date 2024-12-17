@@ -127,7 +127,7 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 
 <details>
 <summary>その他の研究</summary>
-<div class=topic></h2>
+<div class=topic>
 <p>それ以外でも、たくさんの情報アクセスに関連する（たまに、しない）研究を行ってきています。</p>
 </div>
 </details>
