@@ -9,13 +9,13 @@ layout: home
 ---
 
 <style>
-    span.title{
-        font-size:400%
-        font-weight:bolder;
-    }
+span.title{
+font-size:200%;
+font-weight:bolder;
+}
 </style>
 
-<h1>静岡大学 情報学部 行動情報学科</h1>
+<h2>静岡大学 情報学部 行動情報学科</h2>
 <span class="title">莊司研究室</span>
 
 莊司研究室では「人と社会を考慮した情報アクセス技術」の研究室として、
