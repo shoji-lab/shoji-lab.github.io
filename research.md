@@ -12,6 +12,13 @@ permalink: /research/
         margin: 2%;
     }
 
+    div.paper{
+        background-color: #F5F5F5;
+        border-radius: 1%;
+        padding: 2%;
+        margin: 2%;  
+    }
+
     summary {
         cursor: pointer;
     }
@@ -122,10 +129,10 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 </div>
 
 <h1>実際の研究事例紹介</h1>
-
 {% for item in site.researches %}
-  <h2>{{ item.title }}</h2>
+<div class=paper>
+  <p><strong><a href="{{ item.url }}">{{ item.title }}</a></strong></p>
   <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+</div>
 {% endfor %}
 
