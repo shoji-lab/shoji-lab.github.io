@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: 研究テーマの紹介
 permalink: /research/
 ---
 
@@ -22,7 +22,8 @@ permalink: /research/
 
 </style>
 
-<h1>研究テーマの紹介</h1>
+莊司研究室では、情報アクセス技術を中心に、本当にいろんなトピックで研究を行っています。
+以下の例は、莊司研究室でよく研究されがちな研究トピックの例です。
 
 <details>
 <summary>より現実世界での検索に近い情報検索</summary>
@@ -120,6 +121,7 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 <p>それ以外でも、たくさんの情報アクセスに関連する（たまに、しない）研究を行ってきています。</p>
 </div>
 
+<h1>実際の研究事例紹介</h1>
 
 {% for item in site.researches %}
   <h2>{{ item.title }}</h2>
