@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 研究テーマの紹介
+title: Research
 permalink: /research/
 ---
 
