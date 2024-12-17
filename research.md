@@ -125,10 +125,12 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 </div>
 </details>
 
-<div class=topic>
-<h2>その他の研究</h2>
+<details>
+<summary>その他の研究</summary>
+<div class=topic></h2>
 <p>それ以外でも、たくさんの情報アクセスに関連する（たまに、しない）研究を行ってきています。</p>
 </div>
+</details>
 
 <h1>実際の研究事例紹介</h1>
 {% for item in site.researches %}
