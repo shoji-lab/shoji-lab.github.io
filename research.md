@@ -29,16 +29,29 @@ permalink: /research/
 
     .box {
     display: flex;
-    justify-content: center; /* 水平方向にセンターに配置 */
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     margin:0 auto 5%;
     }
 
     img.box {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
+    float: left;
     }
+
+    div.paper{
+        overflow: hidden;
+    }
+
+    .paper::after {
+        content: "";
+        display: block;
+        clear: both; /* floatの要素をクリア */
+    }
+
+
 
 </style>
 
