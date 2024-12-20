@@ -30,7 +30,7 @@ plugins:
 # in order as they should show up.
 header_pages:
   - about.md
-  - member.md
+  - members.html
   - news.md
   - research.md
   - tech.md
