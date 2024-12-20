@@ -3,6 +3,7 @@ layout: research
 title: "「ある商品の購入目的を達成できる、ぜんぜん別の商品」を探そう"
 description: "2024年 データベース学会論文誌 「商品レビューグラフを用いた利用目的を達成可能な代替商品の検索」"
 date: 20240830
+thumbnail: "/assets/img/researches/hirano2024/hirano_motivation.png"
 ---
 
 この研究では、ある商品を入力として与えると、その商品の購入目的を達成できそうな、ぜんぜん別の商品を推薦するアルゴリズムを提案しています。
