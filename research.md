@@ -27,6 +27,19 @@ permalink: /research/
         display: none;
     }
 
+    .box {
+    display: flex;
+    justify-content: center; /* 水平方向にセンターに配置 */
+    align-items: center;
+    margin:0 auto 5%;
+    }
+
+    img.box {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    }
+
 </style>
 
 莊司研究室では、情報アクセス技術を中心に、本当にいろんなトピックで研究を行っています。
@@ -180,6 +193,7 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 {% assign sorted_researches = site.researches | sort: 'date' | reverse %}
 {% for item in sorted_researches %}
 <div class=paper>
+<img class="box" src="{{ item.thumbnail }}">
   <p><strong><a href="{{ item.url }}">{{ item.title }}</a></strong></p>
   <p>{{ item.description }}</p>
 </div>
