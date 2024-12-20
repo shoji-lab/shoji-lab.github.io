@@ -6,59 +6,41 @@ permalink: /member/
 
 
 <style>
-    .image-tile {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 10px; /* 画像間の隙間 */
-    }
-    
-    .image-tile a {
-        position: relative;
-        display: block;
-        overflow: hidden;
-    }
-    
-    .image-tile img {
-        width: 100%;
-        height: auto;
-        object-fit: cover; /* アスペクト比を保ちながら画像をリサイズ */
-        transition: filter 0.3s ease, transform 0.3s ease;
-    }
-    
-    .image-tile a:hover img {
-        filter: grayscale(100%);
-        transform: scale(1.05); /* 画像が少しズームする */
-    }
-    
-    .image-tile .caption {
-        position: absolute;
-        top: 50%;
-        left: 0;
-        width: 100%;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.6);
-        color: #fff;
-        padding: 10px;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        transform: translateY(-50%);
-        font-size: 1.5em; /* キャプションのフォントサイズ */
-    }
-    
-    .image-tile a:hover .caption {
-        opacity: 1;
-    }
-    
-    .image-tile .caption .grade {
-        font-size: 0.8em; /* 学年のフォントサイズを調整 */
-    }
-    
-    page-title h1 {
-        font-size: 2.2em;
-        font-weight: 600;
-        color: #000;
-        display: inline-block;
-    }
+.image-tile a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.image-tile img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* 画像をトリム */
+    filter: brightness(50%); /* 初期状態で暗くする */
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.image-tile a:hover img {
+    filter: brightness(100%); /* ホバー時に鮮明にする */
+}
+
+.image-tile .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6); /* 背景の半透明黒 */
+    color: #fff; /* テキストの色 */
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em; /* キャプションのフォントサイズ */
+    opacity: 1; /* 初期状態で表示 */
+    transition: opacity 0.3s ease; /* ホバー時のフェードアウト */
+}
+
+.image-tile a:hover .caption {
+    opacity: 0; /* ホバー時に文字を非表示 */
+}
 </style>
 
 <h1>メンバー紹介</h1>
@@ -89,8 +71,7 @@ permalink: /member/
         <img src="/assets/img/members/naito_yoshihara.jpg" alt="学部生">
         <div class="caption">
         <h3>吉原 哉偉翔</h3>
-        <p class="grade">学部4年</p></div>
-        
+        <p class="grade">学部4年</p></div>        
     </a>
 
     <a href="./member_list/maoto_watanabe.html">
