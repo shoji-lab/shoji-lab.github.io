@@ -10,6 +10,7 @@ permalink: /member/maoto_watanabe
 
 ## 趣味
 
+
 ## 研究テーマ
 
 ## 論文
