@@ -4,7 +4,7 @@ title: 中野 暁登
 permalink: /member/akito_nakano
 ---
 
-![写真](/assets/img/members/ "中野")
+![写真](/assets/img/members/akito_nakano.jpg "中野")
 
 ## 所属
 静岡大学情報学部行動情報学科
