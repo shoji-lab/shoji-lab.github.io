@@ -133,7 +133,8 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 </details>
 
 <h1>実際の研究事例紹介</h1>
-{% for item in site.researches %}
+{% assign sorted_researches = site.researches | sort: 'date' %}
+{% for item in sorted_researches %}
 <div class=paper>
   <p><strong><a href="{{ item.url }}">{{ item.title }}</a></strong></p>
   <p>{{ item.description }}</p>
