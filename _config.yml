@@ -82,6 +82,11 @@ collections:
   researches:
     output: true
 
+#  edited by shoji for navigation
+
 lang: ja
+
+plugins:
+  - jekyll-sitemap
 
 ###########################################
