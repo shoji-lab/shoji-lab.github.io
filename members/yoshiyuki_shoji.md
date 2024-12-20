@@ -27,4 +27,4 @@ permalink: /member/yoshiyuki_shoji
 - プラモデル
 - ものづくり
 
-個人の略歴や出版状況については[個人のWebサイト](https://shoji-lab.jp/)をご参照ください。
+個人の略歴や研究業績等については[個人のWebサイト](https://shoji-lab.jp/)をご参照ください。
