@@ -30,7 +30,7 @@ permalink: /research/
 </style>
 
 莊司研究室では、情報アクセス技術を中心に、本当にいろんなトピックで研究を行っています。
-以下の例は、莊司研究室でよく研究されがちな研究トピックの例です。
+以下の例は、莊司研究室でよく研究されがちな研究トピックの例です（↓クリックすると詳細が表示されます）。
 
 <details>
 <summary>より現実世界での検索に近い情報検索</summary>
@@ -107,7 +107,7 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 <details>
 <summary>現実世界での情報アクセス技術（ミュージアム情報アクセス）</summary>
 <div class=topic>
-<p><strong>博物館体験を、もっと実のあるものにしたい！</strong></p>
+<p><strong>なんとなく博物館に行くだけでは、あんまり知識が得られない。</strong></p>
 <p>
 情報アクセスは、なにも、コンピュータやWebの中に限られた話ではありません。
 現実世界は情報に溢れており、人々は当たり前のように、日夜、情報を獲得しています。
@@ -133,7 +133,7 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 </details>
 
 <h1>実際の研究事例紹介</h1>
-{% assign sorted_researches = site.researches | sort: 'date' %}
+{% assign sorted_researches = site.researches | sort: 'date' | reverse %}
 {% for item in sorted_researches %}
 <div class=paper>
   <p><strong><a href="{{ item.url }}">{{ item.title }}</a></strong></p>
