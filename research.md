@@ -34,7 +34,7 @@ permalink: /research/
     margin:0 auto 5%;
     }
 
-    .box img{
+    img.box {
     width: 200px;
     height: 200px;
     object-fit: cover;
