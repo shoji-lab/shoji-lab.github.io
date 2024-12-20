@@ -31,7 +31,6 @@ permalink: /research/
     display: flex;
     justify-content: left;
     align-items: left;
-    margin:0 auto 5%;
     }
 
     img.box {
@@ -39,6 +38,7 @@ permalink: /research/
     height: 100px;
     object-fit: cover;
     float: left;
+    padding-right: 5%;
     }
 
     div.paper{
