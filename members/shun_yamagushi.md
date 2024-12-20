@@ -14,5 +14,3 @@ permalink: /member/shun_yamaguchi
 
 ## 研究テーマ
 
-
-## 論文

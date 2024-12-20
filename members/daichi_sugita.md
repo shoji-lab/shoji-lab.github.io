@@ -10,9 +10,7 @@ permalink: /member/daichi_sugita
 静岡大学情報学部行動情報学科
 
 ## 趣味
-
+スマホゲーム
 
 ## 研究テーマ
-
-
-## 論文
+LoRA検索（仮）
