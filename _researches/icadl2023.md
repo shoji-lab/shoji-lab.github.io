@@ -20,10 +20,10 @@ thumbnail: "/assets/img/researches/icadl2023/minpakuthumb.png"
 実験から、ゲームはプレイヤーに好意的に受け止められ、実際に宝探しの対象になった展示物は深く記憶に刻まれていることが分かりました。
 
 
-![図](/assets/img/researches/icadle2023/hints.png "クイズ画面")
+![図](/assets/img/researches/icadl2023/hints.png "クイズ画面")
 実際のクイズ画面（ヒントボタンを押して、隠れた情報を開示）。
 
-![図](/assets/img/researches/icadle2023/stamps.png "スタンプ集め画面")
+![図](/assets/img/researches/icadl2023/stamps.png "スタンプ集め画面")
 なるべく少ないヒントをもとに、すべてのスタンプをゲット！
 
 
