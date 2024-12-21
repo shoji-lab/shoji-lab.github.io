@@ -2,7 +2,6 @@
 layout: page
 title: Research
 permalink: /research/
-title: "研究について 静岡大学 莊司研究室"
 description: "静岡大学情報学部行動情報学科で情報アクセス技術の研究を行っている「莊司慶行研究室」で行われた過去の研究について、その一部を紹介します。"
 
 ---
