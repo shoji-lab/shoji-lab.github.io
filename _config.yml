@@ -33,7 +33,7 @@ header_pages:
   - members.html
   - news.md
   - research.md
-  - tech.md
+  # - tech.md
   - contact.html
 
 # Set to `true` to show excerpts on the homepage.
