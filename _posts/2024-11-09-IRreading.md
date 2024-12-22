@@ -3,7 +3,7 @@ layout: post
 title: "【発表】学部4年生がIR Readingで3件の論文紹介をおこないました！"
 categories: 発表
 ---
-こんにちは、B4の大江です。
+こんにちは、B4の金田です。
 
 11月7日にオンライン開催された情報検索分野の論文紹介を主とする勉強会である「[IR Reading 2024秋](https://sigirtokyo.github.io/post/2024-11-09-irreading_2024fall/)」に参加して、論文紹介をおこなってきました。
 
