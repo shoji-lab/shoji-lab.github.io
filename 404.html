@@ -13,12 +13,34 @@ layout: base
     font-size: 4em;
     line-height: 1;
     letter-spacing: -1px;
+    font-weight: bolder;
   }
+  .gaming {
+    /* アニメーションの長さ */
+    animation: gaming 2s linear infinite;
+  }
+  @keyframes gaming {
+    /* 色の指定 */
+    0% { color: Magenta; }
+    33% { color: yellow; }
+    66% { color: Cyan; }
+    100% { color: Magenta; }
+  }
+
+
 </style>
 
 <div class="container">
-  <h1>404</h1>
+  <h1 class="gaming">404 NotFound</h1>
 
-  <p><strong>Page not found :(</strong></p>
+  <p>上に書かれている「404」という数字は、HTTPの「ステータスコード」と呼ばれるものです。</p>
+  <p>一般的に、サーバにHTTPでアクセスした場合、どのような場合でも、サーバはレスポンスヘッダ内に3桁のステータスコードを含めた状態で返事を返します。
+    たとえば、普段目撃することはありませんが、正しくWebページを得られた場合にも、「200」などのステータスコードが返されています。
+    ステータスコードは、100の位が大まかに返答の種類を表しており、200番台は成功、300番台は転送、400番台はリクエストのエラー、500系統はサーバ内部のエラーを指します。
+  </p>
+  <p>今回出ている「404」のエラーは、要するに、要求されたURLが指し示すページが、サーバ内に存在しないことを指すものです。
+    外部からリンクをたどってきたり、直接URLを書き換えてアクセスした場合は、別に大丈夫です。
+  もしこのサイト内の内部リンクでこのエラー画面表示を見かけた人がいたら、
+「このURLのここのリンクを踏んだら404に飛んだぞ」という内容を、lab🐈shoji-lab.jpまでメールで教えてください。</p> 
   <p>The requested page could not be found.</p>
 </div>

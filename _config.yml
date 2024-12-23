@@ -1,4 +1,4 @@
-title: Shoji-lab
+title: 静岡大学 莊司研究室
 author:
   name: 静岡大学莊司研究室
   email: lab@shoji-lab.jp
@@ -30,10 +30,10 @@ plugins:
 # in order as they should show up.
 header_pages:
   - about.md
-  - member.md
+  - members.html
   - news.md
   - research.md
-  - tech.md
+  # - tech.md
   - contact.html
 
 # Set to `true` to show excerpts on the homepage.
@@ -81,5 +81,12 @@ minima:
 collections:
   researches:
     output: true
+
+#  edited by shoji for navigation
+
+lang: ja
+
+plugins:
+  - jekyll-sitemap
 
 ###########################################
