@@ -1,4 +1,4 @@
-title: Shoji-lab
+title: 静岡大学 莊司研究室
 author:
   name: 静岡大学莊司研究室
   email: lab@shoji-lab.jp
@@ -33,7 +33,7 @@ header_pages:
   - members.html
   - news.md
   - research.md
-  - tech.md
+  # - tech.md
   - contact.html
 
 # Set to `true` to show excerpts on the homepage.
@@ -88,5 +88,13 @@ lang: ja
 
 plugins:
   - jekyll-sitemap
+
+
+# edited by shoji for SEO
+defaults:
+  - scope:
+      path: ""
+    values:
+      keywords: "莊司 荘司 庄司 莊司研究室 荘司研究室 庄司研究室 静岡大学 静大 行動情報 情報学部 静岡大学大学院 総合科学技術研究科 情報学専攻"
 
 ###########################################
