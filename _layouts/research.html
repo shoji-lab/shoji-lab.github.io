@@ -11,12 +11,30 @@ layout: default
     font-weight: bolder;
   }
 
-  div.catch{
-    font-size: large;
-    color: #111;
-    font-weight: bold;
-    margin-bottom: 2em;
-  }
+  div.catch {
+  position: relative;
+  padding-left: 2.5em; 
+  font-size: 1.5em; 
+  font-weight: bold;
+  color: #222;
+}
+
+div.catch::before {
+  content: "！";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 1.5em; 
+  height: 1.5em; 
+  line-height: 1.5em; 
+  text-align: center;
+  background-color: #222; 
+  color: white; /* テキストの色 */
+  border-radius: 50%; /* 丸くする */
+  font-size: 1em; /* アイコンサイズ */
+  font-weight: bold;
+}
 </style>
 
 <h2>研究事例紹介</h2>
