@@ -97,4 +97,8 @@ defaults:
     values:
       keywords: "莊司 荘司 庄司 莊司研究室 荘司研究室 庄司研究室 静岡大学 静大 行動情報 情報学部 静岡大学大学院 総合科学技術研究科 情報学専攻"
 
+# for template
+exclude:
+  - _research/template.md
+
 ###########################################
