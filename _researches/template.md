@@ -1,3 +1,8 @@
+フロントマターがないページは無視される
+
+<!-- 
+
+
 ---
 layout: research
 title: "論文の提案内容を簡潔にまとめたもの"
@@ -5,6 +10,8 @@ description: "会議名「論文名」"
 date: 20240830
 thumbnail: "/assets/img/researches/anh2025/thumb.png"
 ---
+
+-->
 
 <div class="catch">
 キャッチコピー
