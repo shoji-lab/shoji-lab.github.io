@@ -3,7 +3,7 @@ layout: research
 title: "任意のキーワードに対して、レビュー中に現れる多様な言い換え表現を発見しよう"
 description: "Rinton Press 論文誌 JDI 「Doc2Vec-based Approach for Extracting Diverse Evaluation Expressions from Online Review Data」"
 date: 20221212
-thumbnail: "/assets/img/researches/jdi2022kurihara/thumb.png"
+thumbnail: "/assets/img/researches/JDI2022kurihara/thumb.png"
 ---
 
 <div class="catch">
@@ -37,7 +37,7 @@ Yahoo!映画のレビューを使用した実験では、1,200万件以上のレ
 一方で、クエリ拡張を行うと表現の多様性が向上する一方で、検索結果の精度が若干低下するトレードオフも見られました。
 
 
-![図](/assets/img/researches/jdi2022kurihara/kuriharaD2V.png "実際の手法")
+![図](/assets/img/researches/JDI2022kurihara/kuriharaD2V.png "実際の手法")
 Doc2Vecという手法を拡張し、誰か別の人が「泣ける」といった映画には関連する表現が含まれがちだと仮定して言い換えを発見。
 
 
