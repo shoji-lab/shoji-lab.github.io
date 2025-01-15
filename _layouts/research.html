@@ -2,12 +2,48 @@
 layout: default
 ---
 
+
+<style>
+  div.header{
+    padding-left: 1em;
+    padding-right: 2em;
+    background-color: #222;
+    color: #FFF;
+    font-weight: bolder;
+  }
+
+  div.catch {
+  position: relative;
+  padding-left: 2.0em; 
+  font-size: 1.5em; 
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 1em;;
+}
+
+div.catch::before {
+  content: "！";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) rotate(10deg);
+  width: 1.5em; 
+  height: 1.5em; 
+  line-height: 1.5em; 
+  text-align: center;
+  background-color: #222; 
+  color: white; 
+  border-radius: 50%; 
+  font-size: 1em; 
+  font-weight: bold;
+}
+</style>
+
 <h2>研究事例紹介</h2>
 
 <h1>{{ page.title }}</h1>
 
 <hr>
-
 {{ content }}
 
 <!-- ---

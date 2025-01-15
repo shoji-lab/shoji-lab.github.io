@@ -13,10 +13,17 @@ span.title{
 font-size:200%;
 font-weight:bolder;
 }
+
+span.caution{
+color:red;
+font-weight:bold;
+}
 </style>
 
 <h2>静岡大学 情報学部 行動情報学科</h2>
 <span class="title">莊司研究室</span>
+
+
 
 莊司研究室では「人と社会を考慮した情報アクセス技術」の研究室として、
 情報検索アプリケーションやWeb情報学、ソーシャルコンピューティングなどの研究を行っています。
