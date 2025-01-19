@@ -6,9 +6,10 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
 
 ---
 
+
 <style>
     div.topic{
-        background-color: #D4E1E8;
+        background-color: #FFFFFF;
         border-radius: 1%;
         padding: 2%;
         margin: 2%;
@@ -21,18 +22,44 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
         margin: 2%;  
     }
 
-    summary {
-        cursor: pointer;
+    details {
+      border: 2px solid #2196F3;
+      border-radius: 8px;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #f9f9f9;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
     }
 
-    summary::-webkit-details-marker {
-        display: none;
+    
+    summary {
+      font-weight: bold;
+      font-size: 1.1rem;
+      padding: 5px;
+      outline: none;
+      display: list-item;
+    }
+
+    summary:hover {
+      background-color: #e0f7fa;
+      border-radius: 6px;
+    }
+
+
+    details[open] summary {
+      color: #0d47a1;
     }
 
     .box {
     display: flex;
     justify-content: left;
     align-items: left;
+    }
+
+    details[open] {
+      background-color: #e3f2fd;
+      transition: background-color 0.3s, border-color 0.3s;
     }
 
     img.box {
@@ -53,13 +80,21 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
         clear: both; /* floatの要素をクリア */
     }
 
+    span.topic{
+        color: #0d47a1;
+        font-weight: bold;
+    }
+
 
 
 </style>
 
 莊司研究室では、情報アクセス技術を中心に、本当にいろんなトピックで研究を行っています。
-以下の例は、莊司研究室でよく研究されがちな研究トピックの例です。
 
+このページでは、主要な研究トピックの概要と、実際の研究事例を紹介します。
+
+<h1>研究テーマ</h1>
+<div class="research_topics">
 <strong>↓クリックで詳細表示</strong>
 <details>
 <summary>より現実世界での検索に近い情報検索</summary>
@@ -80,7 +115,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
 <p>このような不自然な検索から利用者を解放するために、莊司研究室では、検索エンジンにより自由な入力を可能にするような検索アルゴリズムの研究をいくつも行っています。</p>
 
 <p>
-研究事例：
+<span class="topic">研究事例：</span>
 <ul>
 <li>「目的」を入力とする場所やアイテムの検索</li>
 <li>「みんなの感想」を入力とするWebページ検索</li>
@@ -119,7 +154,7 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 </p>
 
 <p>
-研究事例：
+<span class="topic">研究事例：</span>
 <ul>
 <li>その日のWeb閲覧履歴をカードにして整理したり、クイズにする記憶支援</li>
 <li>日常生活の中でWeb検索履歴と関連する施設に近づくと通知が出るシステム</li>
@@ -181,7 +216,7 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 </p>
 
 <p>
-研究事例：
+<span class="topic">研究事例：</span>
 <ul>
 <li>ガイド端末の操作ログを分析して、観賞体験を1枚のポストカードに変換</li>
 <li>個人の興味のあるまだ見ぬ展示物を探させる「宝探しゲーム」の自動生成</li>
@@ -196,6 +231,7 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 <summary>その他の研究</summary>
 <div class=topic>
 <p>それ以外でも、たくさんの情報アクセスに関連する（たまに、関連しない）研究を行ってきています。</p>
+<span class="topic">研究事例：</span>
 <ul>
 <li>音ゲーの操作ログ分析によるトレーニング譜面の自動生成</li>
 <li>VR空間内でのWeb情報検索</li>
@@ -203,6 +239,7 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 などなど･･･
 </div>
 </details>
+</div>
 
 <h1>実際の研究事例紹介</h1>
 {% assign sorted_researches = site.researches | sort: 'date' | reverse %}
