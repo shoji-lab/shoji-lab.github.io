@@ -24,6 +24,10 @@ color:red;
 font-weight:bold;
 }
 
+div.navigation{
+    font-size:150%;
+}
+
 .carousel {
   position: relative; /* 子要素を絶対配置するために必要 */
   width: 100%;
@@ -107,13 +111,16 @@ font-weight:bold;
   </div>
 </div>
 
-
 莊司研究室では「人と社会を考慮した情報アクセス技術」の研究室として、
 情報検索アプリケーションやWeb情報学、ソーシャルコンピューティングなどの研究を行っています。
 
-研究室の概要、配属希望者向けの情報は[こちら](./about)。
+<div class="navigation">
 
-研究プロジェクト、研究テーマは[こちら](./research)。
+- 研究室の概要、配属希望者向けの情報は[こちら](./about)。
+
+- 研究プロジェクト、研究テーマは[こちら](./research)。
+
+</div>
 
 
 <h2>最新情報</h2>
