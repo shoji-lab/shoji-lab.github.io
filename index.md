@@ -39,6 +39,7 @@ div.navigation{
   display: flex;
   overflow: hidden;
   margin: 0 auto;
+  z-index: 0;
 }
 
 /* テキストオーバーレイ */
