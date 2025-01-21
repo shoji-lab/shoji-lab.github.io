@@ -116,9 +116,13 @@ div.navigation{
 
 <div class="navigation">
 
-- 研究室の概要、配属希望者向けの情報は[こちら](./about)。
+<ul>
 
-- 研究プロジェクト、研究テーマは[こちら](./research)。
+<li>研究室の概要、配属希望者向けの情報は[こちら](./about)。
+
+<li>研究プロジェクト、研究テーマは[こちら](./research)。
+
+</ul>
 
 </div>
 
