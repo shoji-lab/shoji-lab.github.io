@@ -50,7 +50,7 @@ div.navigation{
   align-items: center; /* 水平方向の中央揃え */
   z-index: 2; /* カルーセルの上に配置 */
   pointer-events: none; /* ユーザー操作を無効化 */
-  white-space: pre-wrap; /* 改行と複数スペースを許可 */
+  white-space: nowrap; /* 改行と複数スペースを許可 */
   text-align: center; /* 中央揃え（オプション） */
   color: white; /* 文字色 */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* ドロップシャドウ */
