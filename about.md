@@ -10,13 +10,13 @@ permalink: /about/
         color: black;
     }
     div.block{
-        background-color: #D4E1E8;
+        background-color: #e3f2fd;
         border-radius: 1%;
         padding: 2%;
         margin: 2%;
     }
     div.target{
-        background-color: #B0C6CE;
+        background-color: #F5F5F5;
         border-radius: 0.5%;
         padding: 1%;
         margin: 1%;
