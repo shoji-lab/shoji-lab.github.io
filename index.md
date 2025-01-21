@@ -127,6 +127,7 @@ div.navigation{
 </div>
 
 
+<hr>
 <h2>最新情報</h2>
 
 <!-- ![写真](/assets/img/index/index.jpg "研究室") -->
