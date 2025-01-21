@@ -10,12 +10,12 @@ layout: home
 
 <style>
 div.title{
-font-size:300%;
+font-size:600%;
 font-weight:bolder;
 }
 
 div.subsitle{
-font-size:200%;
+font-size:400%;
 font-weight:bold;
 }
 
