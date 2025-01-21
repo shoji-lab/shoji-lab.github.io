@@ -105,6 +105,7 @@ div.navigation{
   <img src="./assets/img/index/top4.jpg">
   <img src="./assets/img/index/top5.jpg">  
   <img src="./assets/img/index/top3.png">
+  <img src="./assets/img/index/top1.jpg"> 
   <div class="text-overlay">
     <div class="subtitle">静岡大学 情報学部 行動情報学科</div>
     <div class="title">莊司研究室</div>
