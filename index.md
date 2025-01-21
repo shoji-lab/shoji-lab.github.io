@@ -115,15 +115,10 @@ div.navigation{
 情報検索アプリケーションやWeb情報学、ソーシャルコンピューティングなどの研究を行っています。
 
 <div class="navigation">
-
 <ul>
-
 <li>研究室の概要、配属希望者向けの情報は<a href="./about">こちら</a>。
-
 <li>研究プロジェクト、研究テーマは<a href="./research">こちら</a>。
-
 </ul>
-
 </div>
 
 
