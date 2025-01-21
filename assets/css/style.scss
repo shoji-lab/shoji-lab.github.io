@@ -6,6 +6,6 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-  site-nav.nav{
+nav.site-nav{
     z-index: 20;
-  }
+}
