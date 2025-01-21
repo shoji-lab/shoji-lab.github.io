@@ -9,14 +9,18 @@ layout: home
 ---
 
 <style>
-div.title{
-font-size:600%;
-font-weight:bolder;
+div.title {
+  font-size: clamp(2rem, 15vw, 600%); /* 最小2rem、最大600% */
+  font-weight: bolder;
+  text-align: center; /* 中央揃え */
+  line-height: 1.2; /* 行間を調整 */
 }
 
-div.subtitle{
-font-size:200%;
-font-weight:bold;
+div.subtitle {
+  font-size: clamp(1rem, 5vw, 200%); /* 最小1rem、最大200% */
+  font-weight: bold;
+  text-align: center; /* 中央揃え */
+  line-height: 1.5; /* 行間を調整 */
 }
 
 span.caution{
