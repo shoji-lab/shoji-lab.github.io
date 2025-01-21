@@ -102,14 +102,13 @@ div.navigation{
 
 </style>
 
-<!-- カルーセルの外枠 -->
 <div class="carousel">
   <img src="./assets/img/index/top1.jpg">
   <img src="./assets/img/index/top2.jpg">
   <img src="./assets/img/index/top4.jpg">
   <img src="./assets/img/index/top5.jpg">  
   <img src="./assets/img/index/top3.png">
-  <img src="./assets/img/index/top1.jpg"> 
+  <!-- 枚数、5枚用にしてあるので、新しい画像を入れたら1枚コメントアウトする-->
   <div class="text-overlay">
     <div class="subtitle">静岡大学 情報学部 行動情報学科</div>
     <div class="title">莊司研究室</div>
