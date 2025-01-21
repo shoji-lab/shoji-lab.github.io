@@ -14,8 +14,8 @@ font-size:600%;
 font-weight:bolder;
 }
 
-div.subsitle{
-font-size:400%;
+div.subtitle{
+font-size:200%;
 font-weight:bold;
 }
 
@@ -106,7 +106,7 @@ div.navigation{
   <img src="./assets/img/index/top5.jpg">  
   <img src="./assets/img/index/top1.jpg">
   <div class="text-overlay">
-    <div class="sustitle">静岡大学 情報学部 行動情報学科</div>
+    <div class="subtitle">静岡大学 情報学部 行動情報学科</div>
     <div class="title">莊司研究室</div>
   </div>
 </div>
