@@ -73,23 +73,25 @@ div.navigation{
   /* 初期位置は1個目の画像が左端 */
   0% { margin-left: 0; }      
   /* 1個分左の位置に進めて2個目の画像を左端にする */
+  15% { margin-left: -100%; }
+  /* 少しの間上と同じ位置 */  
   20% { margin-left: -100%; }
-  /* 少しの間上と同じ位置 */  
-  25% { margin-left: -100%; }
   /* 2個分左の位置に進めて3個目の画像を左端にする */
-  45% { margin-left: -200%; }
+  35% { margin-left: -200%; }
   /* 少しの間上と同じ位置 */  
-  50% { margin-left: -200%; }
+  40% { margin-left: -200%; }
   /* 以降は上と同様に繰り返し */
-  70% { margin-left: -300%; }
-  75% { margin-left: -300%; }
-  95% { margin-left: -400%; }
-  100% { margin-left: -400%; }
+  55% { margin-left: -300%; }
+  60% { margin-left: -300%; }
+  75% { margin-left: -400%; }
+  80% { margin-left: -400%; }
+  95% { margin-left: -500%; }
+  100% { margin-left: -500%; }
 }
 /* カルーセルの子要素にスクロールアニメーションを設定 */
 .carousel > :first-child {
   animation-name: scroll;    /* キーフレーム名 */
-  animation-duration: 20s;  /* 再生時間全体は20秒 */
+  animation-duration: 25s;  /* 再生時間全体は20秒 */
   animation-delay: 0s;      /* 読込直後から遅延無しで開始 */
   animation-iteration-count: infinite;  /* 無限に繰り返す */
 }
@@ -109,6 +111,8 @@ div.navigation{
   <img src="./assets/img/index/top4.jpg">
   <img src="./assets/img/index/top5.jpg">  
   <img src="./assets/img/index/top3.png">
+  <!-- リセット時にかくつかないようにするために最初の要素を追加 -->
+  <img src="./assets/img/index/top1.jpg">
   <!-- 枚数、5枚用にしてあるので、新しい画像を入れたら1枚コメントアウトする-->
   <div class="text-overlay">
     <div class="subtitle">静岡大学 情報学部 行動情報学科</div>
