@@ -10,7 +10,7 @@ permalink: /member/daichi_sugita
 静岡大学情報学部行動情報学科
 
 ## 趣味
-スマホゲーム
+Choo Choo Survivor
 
 ## 研究テーマ
 LoRA検索（仮）
