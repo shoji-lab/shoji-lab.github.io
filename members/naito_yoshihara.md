@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 吉原 哉偉斗（よしはら ないと）
+title: 吉原 哉偉翔（よしはら ないと）
 permalink: /member/naito_yoshihara
 ---
 ![写真](/assets/img/members/naito_yoshihara.jpg "吉原")
