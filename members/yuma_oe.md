@@ -37,4 +37,4 @@ permalink: /member/yuma_oe
 * 第17回データ工学と情報マネジメントに関するフォーラム　学生プレゼンテーション賞（スタイル距離計算に基づく画像を入力とする画像生成AIモデル検索）
 
 ## 外部サイト
-* [個人Webサイト](https://kodhrt.github.io/)
+* [個人Webサイト](https://kodhrt.github.io/){:target="_blank"}
