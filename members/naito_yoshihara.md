@@ -6,7 +6,7 @@ permalink: /member/naito_yoshihara
 ![写真](/assets/img/members/naito_yoshihara.jpg "吉原")
 
 ## 所属
-静岡大学情報学部行動情報学科
+静岡大学大学院 総合科学技術研究科情報学専攻修士課程
 
 ## 趣味
 漫画を読むこと、甘いものを食べること

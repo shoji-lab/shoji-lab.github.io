@@ -7,7 +7,7 @@ permalink: /member/maoto_watanabe
 ![写真](/assets/img/members/maoto_watanabe.jpg "渡邊")
 
 ## 所属
-静岡大学情報学部行動情報学科
+静岡大学大学院 総合科学技術研究科情報学専攻修士課程
 
 ## 趣味
 スポーツ観戦（野球、バスケットボール、サッカーなど）、料理

@@ -7,7 +7,7 @@ permalink: /member/yuma_oe
 ![写真](/assets/img/members/yuma_oe.jpg "大江")
 
 ## 所属
-静岡大学情報学部行動情報学科
+静岡大学大学院 総合科学技術研究科情報学専攻修士課程
 
 ## 趣味
 服のリメイク、喫茶店探し、ひとり旅、デジカメ
