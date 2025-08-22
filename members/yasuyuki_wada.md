@@ -13,4 +13,4 @@ permalink: /member/yasuyuki_wada
 読書
 
 ## 研究テーマ
-Web閲覧支援（仮）
+対話型AIでの情報探索時に利用者の批判的思考を促すエージェント介入
