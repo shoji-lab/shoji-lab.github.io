@@ -3,7 +3,7 @@ layout: page
 title: 杣友紡
 permalink: /member/tsumugu_somatomo
 ---
-![写真](/assets/img/members/yuro_kanada.jpg "金田")
+![写真](/assets/img/members/tsumugu_somatomo.jpg "金田")
 
 ### 所属
 静岡大学 情報学部行動情報学科
