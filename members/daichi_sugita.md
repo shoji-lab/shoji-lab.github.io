@@ -13,4 +13,4 @@ permalink: /member/daichi_sugita
 Choo Choo Survivor
 
 ## 研究テーマ
-LoRA検索（仮）
+理想の画像を入力とするマージすべき追加LoRAモデルの検索
