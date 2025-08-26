@@ -17,46 +17,72 @@ layout: base
   {% endif %}
 
 
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts limit:3 -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
+{%- if posts.size > 0 -%}
+  {%- if page.list_title -%}
+    <h2 class="post-list-heading">{{ page.list_title }}</h2>
   {%- endif -%}
+
+  <ul class="lab-news-list">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{%- for post in posts limit:3 -%}
+  {%- assign thumb = post.thumbnail | default: post.image | default: post.thumb | default: "" -%}
+  {%- if thumb == "" -%}
+    {%- assign html = post.content | markdownify -%}
+    {%- assign split_by_src = html | split: 'src="' -%}
+    {%- if split_by_src.size > 1 -%}
+      {%- assign after_src = split_by_src[1] -%}
+      {%- assign thumb = after_src | split: '"' | first -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if thumb != "" and (thumb contains '://') == false -%}
+    {%- assign thumb = thumb | relative_url -%}
+  {%- endif -%}
+
+  {%- assign card_classes = "lab-news-card" -%}
+  {%- unless thumb != "" -%}
+    {%- assign card_classes = card_classes | append: " lab-news-card--no-thumb" -%}
+  {%- endunless -%}
+
+  <li>
+    <a class="{{ card_classes }}" href="{{ post.url | relative_url }}">
+      <div class="lab-news-card__body">
+        <span class="lab-news-card__date">{{ post.date | date: date_format }}</span>
+        <h3 class="lab-news-card__title">{{ post.title | escape }}</h3>
+        {%- if site.show_excerpts and post.excerpt -%}
+          <p class="lab-news-card__excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+        {%- endif -%}
+      </div>
+
+      {%- if thumb != "" -%}
+        <div class="lab-news-card__thumb">
+          <img src="{{ thumb }}" alt="">
+        </div>
+      {%- endif -%}
+    </a>
+  </li>
+{%- endfor -%}
+  </ul>
+
+  {% if site.paginate %}
+    <div class="pager">
+      <ul class="pagination">
+      {%- if paginator.previous_page %}
+        <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+      {%- else %}
+        <li><div class="pager-edge">•</div></li>
+      {%- endif %}
+        <li><div class="current-page">{{ paginator.page }}</div></li>
+      {%- if paginator.next_page %}
+        <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+      {%- else %}
+        <li><div class="pager-edge">•</div></li>
+      {%- endif %}
+      </ul>
+    </div>
+  {% endif %}
+
+{%- endif -%}
 
 <h2> 最近の研究トピック </h2>
 <div class="card-grid">

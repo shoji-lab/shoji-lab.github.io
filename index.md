@@ -145,6 +145,95 @@ div.navigation{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+/* ===== News cards ===== */
+.lab-news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+
+/* カード全体をリンク化 */
+.lab-news-card {
+  display: grid;
+  grid-template-columns: 1fr 140px; /* 本文 / サムネ */
+  gap: 12px;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 16px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.lab-news-card:hover {
+  transform: translateY(-2px);
+  border-color: #dee2e6;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+/* サムネ無しなら1カラム */
+.lab-news-card--no-thumb {
+  grid-template-columns: 1fr;
+}
+
+/* 本文領域 */
+.lab-news-card__date {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 6px;
+}
+.lab-news-card__title {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  display: -webkit-box;              /* タイトル複数行省略（2行） */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.lab-news-card__excerpt {
+  margin: 0;
+  color: #495057;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* サムネ（あれば右側に小さく） */
+.lab-news-card__thumb {
+  width: 100%;
+}
+.lab-news-card__thumb img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;   /* 横長 */
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+/* レスポンシブ */
+@media (max-width: 720px) {
+  .lab-news-card {
+    grid-template-columns: 1fr 120px;
+    padding: 14px;
+  }
+}
+@media (max-width: 560px) {
+  .lab-news-card {
+    grid-template-columns: 1fr; /* 縦積み */
+  }
+  .lab-news-card__thumb {
+    order: -1;          /* 画像を上に */
+    margin-bottom: 8px;
+  }
+}
+
 /*↑ 莊司追加分******************************************************/
 
 
