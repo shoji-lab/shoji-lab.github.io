@@ -196,6 +196,7 @@ Webで見た情報を記憶に残し知識に定着させるための情報ア�
 </div>
 </details>
 
+<details>
 <summary>中身まで読みたくなるような情報提示</summary>
 <div class=topic>
 <p><strong>SNSで流れてきたリンク、タイトルだけ読んでクリックしない</strong></p>
