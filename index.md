@@ -29,7 +29,7 @@ font-weight:bold;
 }
 
 div.navigation{
-    font-size:150%;
+    font-size:120%;
 }
 
 .carousel {
