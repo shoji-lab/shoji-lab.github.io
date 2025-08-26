@@ -103,6 +103,51 @@ div.navigation{
   filter: brightness(50%); /* 明るさを50%に調整 */
 }
 
+
+/*↓ 莊司追加分******************************************************/
+/* グリッド全体 */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* カード */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* 画像 */
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover; /* 画像を枠にフィット */
+}
+
+/* タイトル */
+.card h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+  padding: 0 10px;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*↑ 莊司追加分******************************************************/
+
+
 </style>
 
 <div class="carousel">
