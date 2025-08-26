@@ -234,6 +234,23 @@ div.navigation{
   }
 }
 
+.lab-news-more {
+  text-align: right;
+  margin-top: 8px;
+}
+
+.lab-news-more a {
+  color: #0077cc;         /* サイトのテーマカラーに合わせて調整 */
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.lab-news-more a:hover {
+  color: #005999;
+  text-decoration: underline;
+}
+
 /*↑ 莊司追加分******************************************************/
 
 
@@ -267,7 +284,6 @@ div.navigation{
 </div>
 
 
-<hr>
-<h2>最新情報</h2>
+
 
 <!-- ![写真](/assets/img/index/index.jpg "研究室") -->

@@ -16,6 +16,8 @@ layout: base
     {% assign posts = site.posts %}
   {% endif %}
 
+<hr>
+<h2>最新情報</h2>
 
 {%- if posts.size > 0 -%}
   {%- if page.list_title -%}
@@ -83,6 +85,12 @@ layout: base
   {% endif %}
 
 {%- endif -%}
+<div class="lab-news-more">
+  <a href="https://shoji-lab.github.io/news/">more news →</a>
+</div>
+
+
+<hr>
 
 <h2> 最近の研究トピック </h2>
 <div class="card-grid">
@@ -94,4 +102,8 @@ layout: base
     </div>
   {% endfor %}
 </div>
+<div class="lab-news-more">
+  <a href="https://shoji-lab.github.io/research/">more research →</a>
+</div>
+
 </div>
