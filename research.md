@@ -240,7 +240,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
           <span class="note-title">記憶に残る情報アクセス技術</span>
           <span class="note-click">Click</span>
         </div>
-        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_purpose.png" alt="">
+        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_memory.png" alt="">
       </summary>
       <div class="topic">
         <p><strong>Webで日常的に見た情報、なんにも身についてない！</strong></p>
@@ -286,7 +286,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
           <span class="note-title">多人数の意見を集約した情報検索技術</span>
           <span class="note-click">Click</span>
         </div>
-        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_purpose.png" alt="">
+        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_review.png" alt="">
       </summary>
       <div class="topic">
         <p><strong>レビューしか判断材料がないけど、レビューを全部読むのは、不可能！</strong></p>
@@ -324,7 +324,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
           <span class="note-title">中身まで読みたくなるような情報提示</span>
           <span class="note-click">Click</span>
         </div>
-        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_purpose.png" alt="">
+        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_blank.png" alt="">
       </summary>
       <div class="topic">
         <p><strong>SNSで流れてきたリンク、タイトルだけ読んでクリックしない</strong></p>
@@ -359,7 +359,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
           <span class="note-title">現実世界での情報アクセス技術（ミュージアム情報アクセス）</span>
           <span class="note-click">Click</span>
         </div>
-        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_purpose.png" alt="">
+        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_blank.png" alt="">
       </summary>
       <div class="topic">
         <p><strong>なんとなく博物館に行くだけでは、あんまり知識が得られない。</strong></p>
@@ -397,7 +397,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
           <span class="note-title">その他の研究</span>
           <span class="note-click">Click</span>
         </div>
-        <img class="note-thumb" src="https://picsum.photos/seed/review/600/338" alt="">
+        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_blank.png" alt="">
       </summary>
       <div class="topic">
         <p><strong>面白ければ、割と、何でも</strong></p>
