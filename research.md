@@ -321,7 +321,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
     <details>
       <summary>
         <div class="note-head">
-          <span class="note-title">中身まで読みたくなるような情報提示</span>
+          <span class="note-title">中身まで読みたくなるような情報提示技術</span>
           <span class="note-click">Click</span>
         </div>
         <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_web.png" alt="">
