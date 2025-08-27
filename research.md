@@ -397,7 +397,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
           <span class="note-title">その他の研究</span>
           <span class="note-click">Click</span>
         </div>
-        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_blank.png" alt="">
+        <img class="note-thumb" src="https://shoji-lab.github.io/assets/img/researches/topic_other.png" alt="">
       </summary>
       <div class="topic">
         <p><strong>面白ければ、割と、何でも</strong></p>
