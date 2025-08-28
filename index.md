@@ -257,13 +257,13 @@ div.navigation{
 </style>
 
 <div class="carousel">
-  <img src="./assets/img/index/top1.jpg">
-  <img src="./assets/img/index/top2.jpg">
-  <img src="./assets/img/index/top4.jpg">
-  <img src="./assets/img/index/top5.jpg">  
-  <img src="./assets/img/index/top3.png">
+  <img src="./assets/img/index/top1.webp">
+  <img src="./assets/img/index/top2.webp">
+  <img src="./assets/img/index/top4.webp">
+  <img src="./assets/img/index/top5.webp">  
+  <img src="./assets/img/index/top3.webp">
   <!-- リセット時にかくつかないようにするために最初の要素を追加 -->
-  <img src="./assets/img/index/top1.jpg">
+  <img src="./assets/img/index/top1.webp">
   <!-- 枚数、5枚用にしてあるので、新しい画像を入れたら1枚コメントアウトする-->
   <div class="text-overlay">
     <div class="subtitle">静岡大学 情報学部 行動情報学科</div>
@@ -272,7 +272,7 @@ div.navigation{
 </div>
 
 静岡大学 情報学部 行動情報学科 / 静岡大学大学院 総合科学技術研究科 情報学専攻 莊司慶行研究室では「人と社会を考慮した情報アクセス技術」の研究室として、
-情報検索アプリケーションやWeb情報学、ソーシャルコンピューティングなどの研究を行っています。
+情報検索アプリケーションや Web 情報学、ソーシャルコンピューティングなどの研究を行っています。
 人々が必要な時に必要な情報を獲得できるようにするために、ウェブ技術、データベース技術、機械学習（AI）技術などを活用して、さまざまな研究を進めています。
 
 <div class="navigation">
@@ -282,8 +282,5 @@ div.navigation{
 <li>Please check our <a href="./about">research and application details</a> before contacting us.</li>
 </ul>
 </div>
-
-
-
 
 <!-- ![写真](/assets/img/index/index.jpg "研究室") -->
