@@ -10,7 +10,7 @@ categories: 論文
 
 - **Can Stable Diffusion Recommend Outfits?: Outfit Recommendation from Fashion Item Images via Generative AI**, Yuma Oe and Yoshiyuki Shoji, Proc. of The 27th International Conference on Information Integration and Web Intelligence (iiWAS2025), to appear, 2025.
 
-- **Learning Disentangled Document Representations Based on a Classical Shallow Neural Encoder**, Yuro Kanada, Yoshiyuki Shoji, Sumio Fujita, Proc. of The 27th International Conference on Information Integration and Web Intelligence (iiWAS2025), to appear, 2025.
+- **Learning Disentangled Document Representations Based on a Classical Shallow Neural Encoder**, Yuro Kanada, Sumio Fujita, Yoshiyuki Shoji, Proc. of The 27th International Conference on Information Integration and Web Intelligence (iiWAS2025), to appear, 2025.
 
 - **Expanding Aspect Queries into Review Sentence Fragments for Product Comparison via LLM-Generated Synthetic Reviews**, Naito Yoshihara, Takehiro Yamamoto, Yoshiyuki Shoji, Proc. of The 27th International Conference on Information Integration and Web Intelligence (iiWAS2025), to appear, 2025.
 
