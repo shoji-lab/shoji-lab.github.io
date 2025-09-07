@@ -6,6 +6,8 @@ categories: 論文
 
 2025年に開催されるThe 27th International Conference on Information Integration and Web Intelligence（iiWAS2025）にて、M1の大江、金田、吉原、渡邊の論文4件がフルペーパーとして採択されました。
 
+![食事](/assets/img/posts/20250907/iiwas2025.png "papers")
+
 - **Can Stable Diffusion Recommend Outfits?: Outfit Recommendation from Fashion Item Images via Generative AI**, Yuma Oe and Yoshiyuki Shoji, Proc. of The 27th International Conference on Information Integration and Web Intelligence (iiWAS2025), to appear, 2025.
 
 - **Learning Disentangled Document Representations Based on a Classical Shallow Neural Encoder**, Yuro Kanada, Yoshiyuki Shoji, Sumio Fujita, Proc. of The 27th International Conference on Information Integration and Web Intelligence (iiWAS2025), to appear, 2025.
