@@ -25,7 +25,11 @@ permalink: /member/yuro_kanada
 変換特徴を考慮したモデル検索」
 
 ### 論文
-1. **レビューデータからの各次元が意味を持つDisentangledな映画のベクトル表現の獲得**  
+1. **Learning Disentangled Document Representations Based on a Classical Shallow Neural Encoder**  
+著者: Yuro Kanada（静大）, Sumio Fujita（LINEヤフー株式会社）, Yoshiyuki Shoji（静大）  
+発表会議: The 27th International Conference on Information Integration and Web Intelligence (iiWAS2025), 2025  
+
+2. **レビューデータからの各次元が意味を持つDisentangledな映画のベクトル表現の獲得**  
 著者：金田悠路（静大）, 藤田澄男（LINEヤフー株式会社）, 莊司慶行（静大）  
 発表会議：第17回データ工学と情報マネジメントに関するフォーラム, 2025
 
