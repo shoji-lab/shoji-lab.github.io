@@ -412,9 +412,8 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
     </details>
   </div>
 
-
-
-
+<h1>Publications</h1>
+<a href="https://shoji-lab.jp/">莊司の個人ページ</a>にまとめてあります。
 
 <h1>実際の研究事例紹介</h1>
 {% assign sorted_researches = site.researches | sort: 'date' | reverse %}
