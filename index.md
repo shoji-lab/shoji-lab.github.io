@@ -29,7 +29,7 @@ font-weight:bold;
 }
 
 div.navigation{
-    font-size:150%;
+    font-size:120%;
 }
 
 .carousel {
@@ -103,16 +103,167 @@ div.navigation{
   filter: brightness(50%); /* 明るさを50%に調整 */
 }
 
+
+/*↓ 莊司追加分******************************************************/
+/* グリッド全体 */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* カード */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* 画像 */
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover; /* 画像を枠にフィット */
+}
+
+/* タイトル */
+.card h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+  padding: 0 10px;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ===== News cards ===== */
+.lab-news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+
+/* カード全体をリンク化 */
+.lab-news-card {
+  display: grid;
+  grid-template-columns: 1fr 140px; /* 本文 / サムネ */
+  gap: 12px;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 16px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.lab-news-card:hover {
+  transform: translateY(-2px);
+  border-color: #dee2e6;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+/* サムネ無しなら1カラム */
+.lab-news-card--no-thumb {
+  grid-template-columns: 1fr;
+}
+
+/* 本文領域 */
+.lab-news-card__date {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 6px;
+}
+.lab-news-card__title {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  display: -webkit-box;              /* タイトル複数行省略（2行） */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.lab-news-card__excerpt {
+  margin: 0;
+  color: #495057;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* サムネ（あれば右側に小さく） */
+.lab-news-card__thumb {
+  width: 100%;
+}
+.lab-news-card__thumb img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;   /* 横長 */
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+/* レスポンシブ */
+@media (max-width: 720px) {
+  .lab-news-card {
+    grid-template-columns: 1fr 120px;
+    padding: 14px;
+  }
+}
+@media (max-width: 560px) {
+  .lab-news-card {
+    grid-template-columns: 1fr; /* 縦積み */
+  }
+  .lab-news-card__thumb {
+    order: -1;          /* 画像を上に */
+    margin-bottom: 8px;
+  }
+}
+
+.lab-news-more {
+  text-align: right;
+  margin-top: 8px;
+}
+
+.lab-news-more a {
+  color: #0077cc;         /* サイトのテーマカラーに合わせて調整 */
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.lab-news-more a:hover {
+  color: #005999;
+  text-decoration: underline;
+}
+
+/*↑ 莊司追加分******************************************************/
+
+
 </style>
 
 <div class="carousel">
-  <img src="./assets/img/index/top1.jpg">
-  <img src="./assets/img/index/top2.jpg">
-  <img src="./assets/img/index/top4.jpg">
-  <img src="./assets/img/index/top5.jpg">  
-  <img src="./assets/img/index/top3.png">
+  <img src="./assets/img/index/top1.webp">
+  <img src="./assets/img/index/top2.webp">
+  <img src="./assets/img/index/top4.webp">
+  <img src="./assets/img/index/top5.webp">  
+  <img src="./assets/img/index/top3.webp">
   <!-- リセット時にかくつかないようにするために最初の要素を追加 -->
-  <img src="./assets/img/index/top1.jpg">
+  <img src="./assets/img/index/top1.webp">
   <!-- 枚数、5枚用にしてあるので、新しい画像を入れたら1枚コメントアウトする-->
   <div class="text-overlay">
     <div class="subtitle">静岡大学 情報学部 行動情報学科</div>
@@ -121,7 +272,7 @@ div.navigation{
 </div>
 
 静岡大学 情報学部 行動情報学科 / 静岡大学大学院 総合科学技術研究科 情報学専攻 莊司慶行研究室では「人と社会を考慮した情報アクセス技術」の研究室として、
-情報検索アプリケーションやWeb情報学、ソーシャルコンピューティングなどの研究を行っています。
+情報検索アプリケーションや Web 情報学、ソーシャルコンピューティングなどの研究を行っています。
 人々が必要な時に必要な情報を獲得できるようにするために、ウェブ技術、データベース技術、機械学習（AI）技術などを活用して、さまざまな研究を進めています。
 
 <div class="navigation">
@@ -131,9 +282,5 @@ div.navigation{
 <li>Please check our <a href="./about">research and application details</a> before contacting us.</li>
 </ul>
 </div>
-
-
-<hr>
-<h2>最新情報</h2>
 
 <!-- ![写真](/assets/img/index/index.jpg "研究室") -->
