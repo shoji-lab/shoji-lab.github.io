@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 大倉子龍
-permalink: /member/tsumugu_somatomo
+permalink: /member/shiryu_okura
 ---
 ![写真](/assets/img/members/shiryu_okura.jpg "大倉")
 

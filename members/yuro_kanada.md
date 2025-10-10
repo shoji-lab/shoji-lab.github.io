@@ -25,18 +25,24 @@ permalink: /member/yuro_kanada
 変換特徴を考慮したモデル検索」
 
 ### 論文
-1. **Learning Disentangled Document Representations Based on a Classical Shallow Neural Encoder**  
+1. **レビューデータからの各次元が意味を持つDisentangledな映画のベクトル表現の獲得**  
+著者：金田悠路（静大）, 藤田澄男（LINEヤフー株式会社）, 莊司慶行（静大）  
+発表会議：第17回データ工学と情報マネジメントに関するフォーラム, 2025
+
+2. **Learning Disentangled Document Representations Based on a Classical Shallow Neural Encoder**  
 著者: Yuro Kanada（静大）, Sumio Fujita（LINEヤフー株式会社）, Yoshiyuki Shoji（静大）  
 発表会議: The 27th International Conference on Information Integration and Web Intelligence (iiWAS2025), 2025  
 
-2. **レビューデータからの各次元が意味を持つDisentangledな映画のベクトル表現の獲得**  
-著者：金田悠路（静大）, 藤田澄男（LINEヤフー株式会社）, 莊司慶行（静大）  
-発表会議：第17回データ工学と情報マネジメントに関するフォーラム, 2025
+3. **画風変換LoRAの内部パラメータによるモデルの埋め込み表現の獲得**
+著者：金田悠路（静岡大）、大江優真（静岡大）、ファムフーロン（兵庫県立大）、加藤誠（筑波大）、大島裕明（兵庫県立大）、藤田澄男（LINEヤフー株式会社）、莊司慶行（静岡大）
+発表会議：WebDB夏のワークショップ2025
 
 ### 受賞歴
 ・令和6年度静岡大学情報学部長学習奨励賞  
 ・第17回データ工学と情報マネジメントに関するフォーラム　学生プレゼンテーション賞  
 ・第17回データ工学と情報マネジメントに関するフォーラム　優秀インタラクティブ賞
+・東海関西データベースワークショップ2025　優秀賞
+・WebDB夏のワークショップ2025　学生奨励賞
 
 ### 連絡先
 kanada.yuro.21@shizuoka.ac.jp

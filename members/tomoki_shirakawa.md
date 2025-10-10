@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 白川朝貴
-permalink: /member/tsumugu_somatomo
+permalink: /member/tomoki_shirakawa
 ---
 ![写真](/assets/img/members/tomoki_shirakawa.png "金田")
 
