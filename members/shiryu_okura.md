@@ -3,13 +3,15 @@ layout: page
 title: 大倉子龍
 permalink: /member/tsumugu_somatomo
 ---
-![写真](/assets/img/members/yuro_kanada.jpg "金田")
+![写真](/assets/img/members/shiryu_okura.jpg "大倉")
 
 ### 所属
 静岡大学 情報学部行動情報学科
 
 ### プロフィール
-
+趣味
+・音楽鑑賞
+・ひとり旅行
 
 ### 研究テーマ
 考え中
