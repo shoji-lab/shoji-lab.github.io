@@ -38,20 +38,25 @@ div.catch::before {
   font-weight: bold;
 }
 
-.hero {
-  display: grid;
-  grid-template-columns: 1fr min(220px, 30%);
-  gap: 1rem;
-  align-items: start;
-  margin-bottom: 1.5rem;
-}
-.hero-thumb img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover; /* サムネが正方形にきれいに収まる */
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,.08);
-}
+  .thumb-float {
+    float: right;
+    width: 220px;           /* 正方形サイズ */
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-left: 1em;
+    margin-bottom: .5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.12);
+  }
+  /* モバイルでは縦並び */
+  @media (max-width: 768px) {
+    .thumb-float {
+      float: none;
+      display: block;
+      margin: 0 auto 1em auto;
+      max-width: 340px;
+    }
+  }
 @media (max-width: 768px) {
   .hero {
     grid-template-columns: 1fr;
@@ -67,21 +72,6 @@ div.catch::before {
 <h2>研究事例紹介</h2>
 
 <h1>{{ page.title }}</h1>
-
-{% if page.thumbnail %}
-<div class="hero">
-  <div class="hero-main">
-    <hr>
-    {{ content }}
-  </div>
-  <div class="hero-thumb">
-    <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }} thumbnail">
-  </div>
-</div>
-{% else %}
-<hr>
-{{ content }}
-{% endif %}
 
 <hr>
 {{ content }}
@@ -130,4 +120,32 @@ layout: base
 {% if page.thumbnail %}
 <meta property="og:image" content="{{ page.thumbnail | absolute_url }}">
 <meta name="twitter:image" content="{{ page.thumbnail | absolute_url }}">
+{% endif %}
+
+{% if page.thumbnail %}
+<script>
+  (function() {
+    // .catch の直後にサムネを差し込む
+    var catchEl = document.querySelector('div.catch');
+    if (!catchEl) return;
+
+    // 既に挿入済みなら何もしない（多重防止）
+    if (catchEl.nextElementSibling && catchEl.nextElementSibling.classList && catchEl.nextElementSibling.classList.contains('thumb-float')) return;
+
+    var img = document.createElement('img');
+    img.className = 'thumb-float';
+    img.alt = {{ page.title | jsonify }};
+    img.src = {{ page.thumbnail | relative_url | jsonify }};
+
+    // catch の直後に挿入
+    catchEl.parentNode.insertBefore(img, catchEl.nextSibling);
+  })();
+</script>
+<noscript>
+  <!-- JS無効時のフォールバック（控えめに中央上に表示） -->
+  <p style="text-align:center;margin:.5rem 0 1rem;">
+    <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }} thumbnail"
+         style="width:180px;aspect-ratio:1/1;object-fit:cover;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.12);">
+  </p>
+</noscript>
 {% endif %}
