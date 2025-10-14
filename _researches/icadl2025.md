@@ -2,7 +2,7 @@
 layout: research
 title: "エルフやドワーフと質問を出し合いながらミュージアムを観賞しよう"
 description: "ICADL2025「Question-Based Viewing with LLM-Powered Personified Characters: A Role-Playing Dialogue System for Perspective-Taking in Museums」"
-date: 20231202
+date: 20251014
 thumbnail: "/assets/img/researches/icadl2025/thumb.png"
 ---
 
