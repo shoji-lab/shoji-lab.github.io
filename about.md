@@ -7,7 +7,7 @@ permalink: /about/
 <header class="about-hero">
   <div class="about-hero__inner">
     <figure class="about-hero__media">
-      <img src="/assets/img/about/about.png" alt="Shoji Lab banner">
+      <img src="/assets/img/about/about.webp" alt="Shoji Lab banner">
       <figcaption class="about-hero__overlay">
         <h1>ようこそ、情報アクセス技術の莊司研究室へ！</h1>
       </figcaption>
@@ -49,8 +49,8 @@ permalink: /about/
           </div>
         </div>
 
-        <div class="note-card" data-title="最近の研究テーマ例は？" tabindex="0">
-          <div class="note-head">莊司研は情報アクセス技術分野の中で、どういう研究を行っているの？</div>
+        <div class="note-card" data-title="莊司研は情報アクセス技術分野の中で、どういう研究を行っているの？" tabindex="0">
+          <div class="note-head">最近の研究テーマ例は？</div>
           <div class="note-body">
             <p><strong>「人や、社会を考慮することによる、より便利な情報アクセスアプリケーション」の研究をしています。</strong></p>
             <p>「情報アクセス技術の研究」とひとことで言っても、その中で行われている研究の内容は、大学や研究室ごとにさまざまです。
@@ -73,7 +73,6 @@ permalink: /about/
               </ul>
             <p>などについて、幅広く研究しています。</p>
             <p> 研究の詳細については、<a href="https://shoji-lab.github.io/research/">Researchのページ</a>を参照してください。</p>
-            </p>
           </div>
         </div>
 
@@ -194,7 +193,7 @@ permalink: /about/
         </div>
         <div class="note-card" data-title="1週間のスケジュール" tabindex="0">
           <div class="note-head">1週間のスケジュール</div>
-          <div class="note-body"><p>ここは学生が書いてくれる</p></div>
+          <div class="note-body"><p>莊司研究室では、基本的に週に3回の全体ミーティングがあり、それ以外の時間に個別で個別の研究ミーティングをしています。</p><p>具体的なスケジュール例として、学部4年生と修士1年生の一週間の過ごし方の例を示します。</p></div>
         </div>
         <div class="note-card" data-title="研究室イベント" tabindex="0">
           <div class="note-head">研究室イベント</div>
