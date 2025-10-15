@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "About Shoji Lab"
+title: "About"
 permalink: /about/
 ---
 
@@ -560,6 +560,32 @@ html { scroll-behavior: smooth; }
   font-weight: 800; color:#111;
   font-size: clamp(1.2rem, 1rem + .8vw, 1.6rem);
 }
+
+/* 日本語テキストの安全リセット（このページ内だけ） */
+.about-sections, .about-sections * {
+  /* 上位の letter-spacing を打ち消す */
+  letter-spacing: normal !important;
+
+  /* 日本語で崩れやすい palt/halt を明示的に無効化 */
+  font-feature-settings: "palt" 0, "halt" 0, "kern" 1 !important;
+
+  /* ぶら下がり等を解除（有効にしているテーマがあると句読点が浮く） */
+  hanging-punctuation: none;
+}
+
+/* 段落・リストは改行振る舞いも日本語向けに */
+.about-sections :where(p, li) {
+  line-break: strict;     /* 句読点・括弧の禁則を強める */
+  word-break: normal;     /* 不要な分割を抑える */
+  white-space: normal;
+}
+
+/* 見出しにも念のため（以前追加した letter-spacing を解除） */
+.about-section h2, .note-head {
+  letter-spacing: normal !important;
+  font-feature-settings: "palt" 0, "halt" 0, "kern" 1 !important;
+}
+
 
 </style>
 
