@@ -2,7 +2,7 @@
 <header class="about-hero">
   <div class="about-hero__inner">
     <figure class="about-hero__media">
-      <img src="/assets/img/about.png" alt="Shoji Lab banner">
+      <img src="assets/img/about.png" alt="Shoji Lab banner">
       <figcaption class="about-hero__overlay">
         <h1>ようこそ、情報アクセス技術の莊司研究室へ！</h1>
       </figcaption>
