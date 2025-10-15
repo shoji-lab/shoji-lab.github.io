@@ -49,8 +49,8 @@ permalink: /about/
           </div>
         </div>
 
-        <div class="note-card" data-title="最近の研究テーマ例は？" tabindex="0">
-          <div class="note-head">莊司研は情報アクセス技術分野の中で、どういう研究を行っているの？</div>
+        <div class="note-card" data-title="莊司研は情報アクセス技術分野の中で、どういう研究を行っているの？" tabindex="0">
+          <div class="note-head">最近の研究テーマ例は？</div>
           <div class="note-body">
             <p><strong>「人や、社会を考慮することによる、より便利な情報アクセスアプリケーション」の研究をしています。</strong></p>
             <p>「情報アクセス技術の研究」とひとことで言っても、その中で行われている研究の内容は、大学や研究室ごとにさまざまです。
@@ -73,7 +73,6 @@ permalink: /about/
               </ul>
             <p>などについて、幅広く研究しています。</p>
             <p> 研究の詳細については、<a href="https://shoji-lab.github.io/research/">Researchのページ</a>を参照してください。</p>
-            </p>
           </div>
         </div>
 
