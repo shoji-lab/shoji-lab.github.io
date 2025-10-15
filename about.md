@@ -194,7 +194,7 @@ permalink: /about/
         </div>
         <div class="note-card" data-title="1週間のスケジュール" tabindex="0">
           <div class="note-head">1週間のスケジュール</div>
-          <div class="note-body"><p>ここは学生が書いてくれる</p></div>
+          <div class="note-body"><p>莊司研究室では、基本的に週に3回の全体ミーティングがあり、それ以外の時間に個別で個別の研究ミーティングをしています。</p><p>具体的なスケジュール例として、学部4年生と修士1年生の一週間の過ごし方の例を示します。</p></div>
         </div>
         <div class="note-card" data-title="研究室イベント" tabindex="0">
           <div class="note-head">研究室イベント</div>
