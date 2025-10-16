@@ -50,7 +50,7 @@ permalink: /about/
         </div>
 
         <div class="note-card" data-title="莊司研は情報アクセス技術分野の中で、どういう研究を行っているの？" tabindex="0">
-          <div class="note-head">最近の研究テーマ例は？</div>
+          <div class="note-head">莊司研はどういう研究を行っているの？</div>
           <div class="note-body">
             <p><strong>「人や、社会を考慮することによる、より便利な情報アクセスアプリケーション」の研究をしています。</strong></p>
             <p>「情報アクセス技術の研究」とひとことで言っても、その中で行われている研究の内容は、大学や研究室ごとにさまざまです。
@@ -60,8 +60,8 @@ permalink: /about/
           </div>
         </div>
 
-        <div class="note-card" data-title="最近の研究テーマ例は？" tabindex="0">
-          <div class="note-head">最近の研究テーマ</div>
+        <div class="note-card" data-title="最近の研究テーマ例" tabindex="0">
+          <div class="note-head">最近の研究テーマ例は？</div>
           <div class="note-body">
             <p><strong>情報アクセスに関連するなら、なんでも対象としています。</strong></p>
             <p>最近の具体的な研究トピックとしては、</p>
@@ -76,7 +76,7 @@ permalink: /about/
           </div>
         </div>
 
-        <div class="note-card" data-title="アプローチ" tabindex="0">
+        <div class="note-card" data-title="使う技術とアプローチ" tabindex="0">
           <div class="note-head">使う技術とアプローチ</div>
           <div class="note-body">
             <p><strong>データハンドリング技術、AI技術、データマイニング技術、Web技術などを横断的に活用して研究を進めています。</strong></p>
@@ -189,7 +189,17 @@ permalink: /about/
       <div class="note-column">
         <div class="note-card" data-title="研究室環境" tabindex="0">
           <div class="note-head">研究室環境</div>
-          <div class="note-body"><p>ここは学生が書いてくれる</p></div>
+          <div class="note-body">
+            <p>毎日研究室で過ごせるような環境が整っています！</p>
+            <ul>
+              <li>1人1台マシンの割り当て</li>
+              <li>フリーアドレスのデスクとモニター</li>
+              <li>電子レンジ・冷蔵庫・コーヒーメーカー・調理器具</li>
+              <li></li>
+              <li></li>
+            </ul>
+
+          </div>
         </div>
         <div class="note-card" data-title="1週間のスケジュール" tabindex="0">
           <div class="note-head">1週間のスケジュール</div>
@@ -197,7 +207,12 @@ permalink: /about/
         </div>
         <div class="note-card" data-title="研究室イベント" tabindex="0">
           <div class="note-head">研究室イベント</div>
-          <div class="note-body"><p>ここは学生が書いてくれる</p></div>
+          <div class="note-body">
+            <p>莊司研では、日常的にみんなでご飯を食べるイベントを開催しています！</p>
+            <p>学内でBBQをしたり、研究室でご飯を作って食べたりしています</p>
+            <p>年に数回飲み会もしており、歓迎会や、忘年会、新年会などを開催しています！</p>
+            <p>過去のイベントは<a href="https://shoji-lab.github.io/news/">News</a>の雑談をご覧ください</p>
+          </div>
         </div>
         <div class="note-card" data-title="学術イベント参加" tabindex="0">
           <div class="note-head">学術イベント参加</div>
