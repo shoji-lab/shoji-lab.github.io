@@ -195,8 +195,6 @@ permalink: /about/
               <li>1人1台マシンの割り当て</li>
               <li>フリーアドレスのデスクとモニター</li>
               <li>電子レンジ・冷蔵庫・コーヒーメーカー・調理器具</li>
-              <li></li>
-              <li></li>
             </ul>
 
           </div>
@@ -209,9 +207,9 @@ permalink: /about/
           <div class="note-head">研究室イベント</div>
           <div class="note-body">
             <p>莊司研では、日常的にみんなでご飯を食べるイベントを開催しています！</p>
-            <p>学内でBBQをしたり、研究室でご飯を作って食べたりしています</p>
+            <p>学内でBBQをしたり、研究室でご飯を作って食べたりしています。</p>
             <p>年に数回飲み会もしており、歓迎会や、忘年会、新年会などを開催しています！</p>
-            <p>過去のイベントは<a href="https://shoji-lab.github.io/news/">News</a>の雑談をご覧ください</p>
+            <p>過去のイベントは<a href="https://shoji-lab.github.io/news/">News</a>の雑談をご覧ください。</p>
           </div>
         </div>
         <div class="note-card" data-title="学術イベント参加" tabindex="0">
