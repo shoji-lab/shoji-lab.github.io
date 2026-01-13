@@ -225,8 +225,10 @@ div.navigation{
 .lab-news-card__thumb img{
   width: 100%;
   height: 100%;
+  aspect-ratio: 1 / 1;   /* 横長 */
   object-fit: contain;
   background: #fff;
+  display: block;
 }
 
 /* レスポンシブ */
