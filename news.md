@@ -18,6 +18,12 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
     <button class="category-button" data-category="雑談">雑談</button>
   </div>
 
+  <div class="view-toggle" role="group" aria-label="表示切替">
+    <button class="view-button active" data-view="card" aria-pressed="true">カード</button>
+    <button class="view-button" data-view="list" aria-pressed="false">リスト</button>
+  </div>
+
+
   <!-- ニュース一覧 -->
   <!-- <div class="news-list">
     <ul>
@@ -168,10 +174,101 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
     aspect-ratio: 16 / 9;
   }
 }
+
+/* ===== view toggle (既にあるなら調整不要) ===== */
+.news-controls{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  margin-bottom:12px;
+}
+.view-toggle{
+  display:inline-flex;
+  border:1px solid #e9ecef;
+  border-radius:10px;
+  overflow:hidden;
+  background:#fff;
+}
+.view-button{
+  appearance:none;
+  border:0;
+  background:transparent;
+  padding:8px 10px;
+  font-size:0.9rem;
+  cursor:pointer;
+}
+.view-button.active{
+  background:#f1f3f5;
+  font-weight:600;
+}
+
+/* ===== list view: no image, compact list ===== */
+.news-view[data-view="list"] .lab-news-card{
+  display:flex;                /* gridやめる */
+  gap:10px;
+  align-items:baseline;
+  padding:10px 6px;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+  border-bottom:1px solid #eef1f4; /* 区切り線 */
+  transform:none;
+}
+
+.news-view[data-view="list"] .lab-news-card:hover{
+  transform:none;
+  box-shadow:none;
+  background:#fafbfc;          /* うっすらホバー */
+}
+
+/* 画像は完全に消す */
+.news-view[data-view="list"] .lab-news-card__thumb{
+  display:none !important;
+}
+
+/* メタ情報は1行でコンパクトに */
+.news-view[data-view="list"] .lab-news-card__meta{
+  margin:0;
+  gap:8px;
+}
+
+/* 抜粋は消す（密度優先） */
+.news-view[data-view="list"] .lab-news-card__excerpt{
+  display:none !important;
+}
+
+/* タイトルは基本1行（必要なら2行に変えてOK） */
+.news-view[data-view="list"] .lab-news-card__title{
+  margin:0;
+  font-size:0.98rem;
+  line-height:1.35;
+  display:-webkit-box;
+  -webkit-line-clamp:1;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+/* 日付は左に固定したいなら width を与える */
+.news-view[data-view="list"] .lab-news-card__date{
+  font-size:0.85rem;
+  color:#6c757d;
+  white-space:nowrap;
+}
+
+/* チップも少し小さく */
+.news-view[data-view="list"] .lab-chip{
+  font-size:0.74rem;
+  padding:1px 7px;
+}
+
+
 </style>
 
 
-<div class="lab-news-list">
+<div class="lab-news-list news-view" data-view="card">
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
   {%- for post in site.posts -%}
