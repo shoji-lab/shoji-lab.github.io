@@ -242,7 +242,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
 }
 
 /* カード＝横棒4本（backgroundで描画） */
-.view-icon--card{
+.view-icon--list{
   background:
     linear-gradient(#333 0 0) 0 0 / 100% 3px,
     linear-gradient(#333 0 0) 0 6px / 100% 3px,
@@ -253,12 +253,26 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
 }
 
 /* リスト＝四角が縦に3個（2個にしたいなら3行目を消す） */
-.view-icon--list{
+.view-icon--card{
+  position: relative;
+  width: 20px;
+  height: 20px;
   background:
-    linear-gradient(#333 0 0) 0 0 / 8px 8px,
-    linear-gradient(#333 0 0) 0 10px / 8px 8px,
-    linear-gradient(#333 0 0) 0 20px / 8px 8px;
+    /* 1段目カード枠 */
+    linear-gradient(#333 0 0) 0 0 / 20px 8px,
+    /* 1段目サムネ */
+    linear-gradient(#333 0 0) 2px 2px / 4px 4px,
+    /* 1段目テキスト */
+    linear-gradient(#333 0 0) 8px 3px / 10px 2px,
+
+    /* 2段目カード枠 */
+    linear-gradient(#333 0 0) 0 12px / 20px 8px,
+    /* 2段目サムネ */
+    linear-gradient(#333 0 0) 2px 14px / 4px 4px,
+    /* 2段目テキスト */
+    linear-gradient(#333 0 0) 8px 15px / 10px 2px;
   background-repeat: no-repeat;
+  border-radius: 2px;
 }
 
 /* アクティブ時：既存の active 背景に加えてアイコンも少し強調したいなら */
