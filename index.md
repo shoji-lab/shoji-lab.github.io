@@ -205,7 +205,7 @@ div.navigation{
 }
 
 /* サムネ（あれば右側に小さく） */
-.lab-news-card__thumb {
+/* .lab-news-card__thumb {
   width: 100%;
 }
 .lab-news-card__thumb img {
@@ -215,6 +215,18 @@ div.navigation{
   object-fit: cover;
   border-radius: 8px;
   display: block;
+} */
+
+.lab-news-card__thumb{
+  width: 160px;
+  height: 140px;         /* 好みで 120〜180 */
+}
+
+.lab-news-card__thumb img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #fff;
 }
 
 /* レスポンシブ */
