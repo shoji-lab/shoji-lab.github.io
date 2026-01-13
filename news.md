@@ -18,10 +18,10 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
     <button class="category-button" data-category="雑談">雑談</button>
   </div>
 
-  <div class="view-toggle" role="group" aria-label="表示切替">
-    <button class="view-button active" data-view="card" aria-pressed="true">カード</button>
-    <button class="view-button" data-view="list" aria-pressed="false">リスト</button>
-  </div>
+<div class="view-toggle" role="group" aria-label="表示切替">
+  <button type="button" class="view-button active" data-view="card" aria-pressed="true">カード</button>
+  <button type="button" class="view-button" data-view="list" aria-pressed="false">リスト</button>
+</div>
 
 
   <!-- ニュース一覧 -->
@@ -416,50 +416,74 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
 </style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
+  // ---------- Category filter ----------
+  (() => {
     const buttons = Array.from(document.querySelectorAll(".category-button"));
     const items   = Array.from(document.querySelectorAll(".news-item"));
+    if (buttons.length === 0 || items.length === 0) return;
 
-    // ボタン側に出てくるカテゴリ（=許容カテゴリ）を収集
-    const allowed = buttons
-      .map(b => (b.getAttribute("data-category") || "").trim())
-      .filter(v => v && v !== "all");
-
-    function extractCategories(raw) {
-      // raw は data-category の生文字列（Jekyll由来で表現が揺れる想定）
-      const s = String(raw || "");
-
-      // allowed にあるカテゴリ語が含まれているかを素直に拾う
-      // これなら ["論文"] でも "論文,発表" でも確実に拾える
-      const found = [];
-      for (const cat of allowed) {
-        if (s.includes(cat)) found.push(cat);
-      }
-      return found;
-    }
-
-    function applyFilter(category) {
-      // active 状態
-      buttons.forEach(btn => btn.classList.toggle("active", (btn.getAttribute("data-category") || "") === category));
+    function applyCategory(category) {
+      buttons.forEach(btn => {
+        const on = (btn.getAttribute("data-category") || "all") === category;
+        btn.classList.toggle("active", on);
+        btn.setAttribute("aria-pressed", on ? "true" : "false");
+      });
 
       items.forEach(item => {
-        const rawCats = item.getAttribute("data-category") || "";
-        const cats = extractCategories(rawCats);
-
-        const show = (category === "all") || cats.includes(category);
-        item.style.display = show ? "" : "none";
+        const raw = (item.getAttribute("data-category") || "");
+        const tokens = raw.split(/\s+/).filter(Boolean); // data-category はスペース区切り前提
+        const show = (category === "all") || tokens.includes(category);
+        item.hidden = !show; // displayをいじらない
       });
     }
 
-    // クリック設定
-    buttons.forEach(button => {
-      button.addEventListener("click", () => {
-        const category = (button.getAttribute("data-category") || "all").trim();
-        applyFilter(category);
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const category = (btn.getAttribute("data-category") || "all").trim();
+        applyCategory(category);
       });
     });
 
-    // 初期状態：すべて
-    applyFilter("all");
-  });
+    applyCategory("all");
+  })();
+
+  // ---------- View toggle (card/list) ----------
+  (() => {
+    const viewRoot = document.querySelector(".news-view");
+    const viewButtons = Array.from(document.querySelectorAll(".view-button"));
+    if (!viewRoot || viewButtons.length === 0) return;
+
+    const storageKey = "newsViewMode";
+
+    function setView(mode) {
+      viewRoot.setAttribute("data-view", mode);
+      viewButtons.forEach(btn => {
+        const on = (btn.getAttribute("data-view") === mode);
+        btn.classList.toggle("active", on);
+        btn.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      try { localStorage.setItem(storageKey, mode); } catch (e) {}
+    }
+
+    let initial = "card";
+    try {
+      const saved = localStorage.getItem(storageKey);
+      if (saved === "card" || saved === "list") initial = saved;
+    } catch (e) {}
+
+    // 初回スマホはリストに倒したいなら（保存が無い場合だけ）
+    if (initial === "card" && window.matchMedia("(max-width: 560px)").matches) {
+      // savedが無かった場合だけにしたいなら、上の saved 判定にフラグを足してください
+      initial = "list";
+    }
+
+    viewButtons.forEach(btn => {
+      btn.addEventListener("click", () => setView(btn.getAttribute("data-view")));
+    });
+
+    setView(initial);
+  })();
+});
 </script>
+
