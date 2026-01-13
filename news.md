@@ -307,26 +307,49 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const buttons = document.querySelectorAll(".category-button");
-    const items = document.querySelectorAll(".news-item");
+    const buttons = Array.from(document.querySelectorAll(".category-button"));
+    const items   = Array.from(document.querySelectorAll(".news-item"));
 
-    buttons.forEach((button) => {
+    // ボタン側に出てくるカテゴリ（=許容カテゴリ）を収集
+    const allowed = buttons
+      .map(b => (b.getAttribute("data-category") || "").trim())
+      .filter(v => v && v !== "all");
+
+    function extractCategories(raw) {
+      // raw は data-category の生文字列（Jekyll由来で表現が揺れる想定）
+      const s = String(raw || "");
+
+      // allowed にあるカテゴリ語が含まれているかを素直に拾う
+      // これなら ["論文"] でも "論文,発表" でも確実に拾える
+      const found = [];
+      for (const cat of allowed) {
+        if (s.includes(cat)) found.push(cat);
+      }
+      return found;
+    }
+
+    function applyFilter(category) {
+      // active 状態
+      buttons.forEach(btn => btn.classList.toggle("active", (btn.getAttribute("data-category") || "") === category));
+
+      items.forEach(item => {
+        const rawCats = item.getAttribute("data-category") || "";
+        const cats = extractCategories(rawCats);
+
+        const show = (category === "all") || cats.includes(category);
+        item.style.display = show ? "" : "none";
+      });
+    }
+
+    // クリック設定
+    buttons.forEach(button => {
       button.addEventListener("click", () => {
-        const category = (button.getAttribute("data-category") || "all").toLowerCase();
-
-        buttons.forEach((btn) => btn.classList.remove("active"));
-        button.classList.add("active");
-
-        items.forEach((item) => {
-          const cats = (item.getAttribute("data-category") || "").toLowerCase();
-
-          const show =
-            category === "all" ||
-            cats.split(/\s+/).filter(Boolean).includes(category); // 単語一致
-
-          item.style.display = show ? "" : "none";
-        });
+        const category = (button.getAttribute("data-category") || "all").trim();
+        applyFilter(category);
       });
     });
+
+    // 初期状態：すべて
+    applyFilter("all");
   });
 </script>
