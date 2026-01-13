@@ -19,8 +19,12 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
   </div>
 
 <div class="view-toggle" role="group" aria-label="表示切替">
-  <button type="button" class="view-button active" data-view="card" aria-pressed="true">カード</button>
-  <button type="button" class="view-button" data-view="list" aria-pressed="false">リスト</button>
+  <button type="button" class="view-button active" data-view="card" aria-pressed="true" aria-label="カード表示">
+    <span class="view-icon view-icon--card" aria-hidden="true"></span>
+  </button>
+  <button type="button" class="view-button" data-view="list" aria-pressed="false" aria-label="リスト表示">
+    <span class="view-icon view-icon--list" aria-hidden="true"></span>
+  </button>
 </div>
 
 
@@ -203,6 +207,65 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
   background:#f1f3f5;
   font-weight:600;
 }
+
+/* ===== view toggle: right aligned + icon buttons ===== */
+
+/* 右寄せ：inline-flex だと右寄せにできないので、要素自体を右寄せブロック扱いにする */
+.view-toggle{
+  display: inline-flex;
+  margin-left: auto;          /* 効く条件が限られるので保険 */
+  float: right;               /* 最短で右寄せにするならこれが確実 */
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+/* float を使うと後続要素が回り込むので解除（news list側の先頭で解除） */
+.lab-news-list{
+  clear: both;
+}
+
+/* ボタンをアイコン用に調整 */
+.view-button{
+  padding: 8px;               /* 文字がないので正方形寄りに */
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* アイコン本体の枠 */
+.view-icon{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+/* カード＝横棒4本（backgroundで描画） */
+.view-icon--card{
+  background:
+    linear-gradient(#333 0 0) 0 0 / 100% 3px,
+    linear-gradient(#333 0 0) 0 6px / 100% 3px,
+    linear-gradient(#333 0 0) 0 12px / 100% 3px,
+    linear-gradient(#333 0 0) 0 18px / 100% 3px;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+}
+
+/* リスト＝四角が縦に3個（2個にしたいなら3行目を消す） */
+.view-icon--list{
+  background:
+    linear-gradient(#333 0 0) 0 0 / 8px 8px,
+    linear-gradient(#333 0 0) 0 10px / 8px 8px,
+    linear-gradient(#333 0 0) 0 20px / 8px 8px;
+  background-repeat: no-repeat;
+}
+
+/* アクティブ時：既存の active 背景に加えてアイコンも少し強調したいなら */
+.view-button.active .view-icon{
+  filter: none;
+}
+
 
 /* ===== list view: no image, compact list ===== */
 .news-view[data-view="list"] .lab-news-card{
