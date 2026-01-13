@@ -204,33 +204,18 @@ div.navigation{
   line-height: 1.45;
 }
 
-/* サムネ（あれば右側に小さく） */
-/* .lab-news-card__thumb {
-  width: 100%;
-}
-.lab-news-card__thumb img {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 16 / 9;   /* 横長 */
-  object-fit: cover;
-  border-radius: 8px;
-  display: block;
-} */
 
 .lab-news-card__thumb{
   width: 160px;
-  height: 140px;         /* 好みで 120〜180 */
+  height: 160px;         /* 好みで 120〜180 */
 }
 
 .lab-news-card__thumb img{
   width: 100%;
   height: 100%;
-  aspect-ratio: 1 / 1;   /* 横長 */
   object-fit: contain;
   background: #fff;
-  display: block;
 }
-
 /* レスポンシブ */
 @media (max-width: 720px) {
   .lab-news-card {
