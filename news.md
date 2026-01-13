@@ -492,7 +492,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
 
 </style>
 
-<script>
+<!-- <script>
 document.addEventListener("DOMContentLoaded", () => {
   // ---------- Category filter ----------
   (() => {
@@ -565,5 +565,90 @@ applyCategory("all");
     setView(initial);
   })();
 });
-</script>
+</script> -->
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // ---------- Category filter (display:none 方式) ----------
+  (() => {
+    const buttons = Array.from(document.querySelectorAll(".category-button"));
+    const items   = Array.from(document.querySelectorAll(".news-item"));
+    if (buttons.length === 0 || items.length === 0) return;
+
+    const norm = (s) => (s || "").trim().toLowerCase();
+
+    function setActive(category){
+      const cat = norm(category);
+      buttons.forEach(btn => {
+        const on = norm(btn.dataset.category || "all") === cat;
+        btn.classList.toggle("active", on);
+        btn.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+    }
+
+    function applyCategory(category) {
+      const cat = norm(category);
+
+      // まず全件表示に戻す（他の処理で hidden 等が付いても確実に復帰させる）
+      items.forEach(item => {
+        item.style.display = "";      // 元の表示に戻す
+        item.removeAttribute("hidden"); // 既に付いていたら剥がす（保険）
+      });
+
+      // 絞り込み
+      if (cat !== "all") {
+        items.forEach(item => {
+          const raw = norm(item.dataset.category || item.getAttribute("data-category") || "");
+          const tokens = raw.split(/\s+/).filter(Boolean);
+          const show = tokens.includes(cat);
+          if (!show) item.style.display = "none";
+        });
+      }
+
+      setActive(cat);
+    }
+
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => applyCategory(btn.dataset.category || "all"));
+    });
+
+    // 初期状態は必ず全件
+    applyCategory("all");
+  })();
+
+  // ---------- View toggle (card/list) ----------
+  (() => {
+    const viewRoot = document.querySelector(".news-view");
+    const viewButtons = Array.from(document.querySelectorAll(".view-button"));
+    if (!viewRoot || viewButtons.length === 0) return;
+
+    const storageKey = "newsViewMode";
+
+    function setView(mode) {
+      viewRoot.setAttribute("data-view", mode);
+      viewButtons.forEach(btn => {
+        const on = (btn.getAttribute("data-view") === mode);
+        btn.classList.toggle("active", on);
+        btn.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      try { localStorage.setItem(storageKey, mode); } catch (e) {}
+    }
+
+    let initial = "card";
+    try {
+      const saved = localStorage.getItem(storageKey);
+      if (saved === "card" || saved === "list") initial = saved;
+    } catch (e) {}
+
+    if (initial === "card" && window.matchMedia("(max-width: 560px)").matches) {
+      initial = "list";
+    }
+
+    viewButtons.forEach(btn => {
+      btn.addEventListener("click", () => setView(btn.getAttribute("data-view")));
+    });
+
+    setView(initial);
+  })();
+});
+</script>
