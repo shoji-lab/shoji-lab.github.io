@@ -40,7 +40,7 @@ thumbnail: "/assets/img/researches/watanabeiiWAS2025/thumb.png"
 <div class="header">実験と分かったこと</div>
 
 
-![図](/assets/img/researches/watanabeiiWAS2025/image.png "スタイル計算")
+![図](/assets/img/researches/watanabeiiWAS2025/image.PNG "スタイル計算")
 「同じ画風だけど、違う題材」の画像同士の類似度が測れれば、「こんな画風を生成するAI」を発見可能
 
 ## 文献情報
