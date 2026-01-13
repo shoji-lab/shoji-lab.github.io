@@ -312,19 +312,19 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
 
     buttons.forEach((button) => {
       button.addEventListener("click", () => {
-        const category = button.getAttribute("data-category");
+        const category = (button.getAttribute("data-category") || "all").toLowerCase();
 
-        // ボタンのアクティブ状態を更新
         buttons.forEach((btn) => btn.classList.remove("active"));
         button.classList.add("active");
 
-        // カテゴリに応じて表示・非表示を切り替え
         items.forEach((item) => {
-          if (category === "all" || item.getAttribute("data-category").includes(category)) {
-            item.style.display = "block";
-          } else {
-            item.style.display = "none";
-          }
+          const cats = (item.getAttribute("data-category") || "").toLowerCase();
+
+          const show =
+            category === "all" ||
+            cats.split(/\s+/).filter(Boolean).includes(category); // 単語一致
+
+          item.style.display = show ? "" : "none";
         });
       });
     });
