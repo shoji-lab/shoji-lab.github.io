@@ -193,7 +193,20 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
       {%- assign card_classes = card_classes | append: " lab-news-card--no-thumb" -%}
     {%- endif -%}
 
-    <a class="{{ card_classes }} news-item" href="{{ post.url | relative_url }}" data-category="{{ cats | downcase }}" data-tags="{{ tags | downcase }}" >
+{%- capture cats -%}
+  {%- for c in post.categories -%}
+    {{ c | downcase }}{% unless forloop.last %} {% endunless %}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- capture tags -%}
+  {%- for t in post.tags -%}
+    {{ t | downcase }}{% unless forloop.last %} {% endunless %}
+  {%- endfor -%}
+{%- endcapture -%}
+
+    <!-- <a class="{{ card_classes }} news-item" href="{{ post.url | relative_url }}" data-category="{{ cats | downcase }}" data-tags="{{ tags | downcase }}" > -->
+    <a class="{{ card_classes }} news-item"    href="{{ post.url | relative_url }}"    data-category="{{ cats | strip }}"    data-tags="{{ tags | strip }}">
       {%- if thumb != "" -%}
         <div class="lab-news-card__thumb">
           <img
