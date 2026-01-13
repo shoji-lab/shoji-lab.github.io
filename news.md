@@ -193,7 +193,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
       {%- assign card_classes = card_classes | append: " lab-news-card--no-thumb" -%}
     {%- endif -%}
 
-    <a class="{{ card_classes }}" href="{{ post.url | relative_url }}">
+    <a class="{{ card_classes }} news-item" href="{{ post.url | relative_url }}" data-category="{{ cats | downcase }}" data-tags="{{ tags | downcase }}" >
       {%- if thumb != "" -%}
         <div class="lab-news-card__thumb">
           <img
