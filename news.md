@@ -500,29 +500,32 @@ document.addEventListener("DOMContentLoaded", () => {
     const items   = Array.from(document.querySelectorAll(".news-item"));
     if (buttons.length === 0 || items.length === 0) return;
 
-    function applyCategory(category) {
-      buttons.forEach(btn => {
-        const on = (btn.getAttribute("data-category") || "all") === category;
-        btn.classList.toggle("active", on);
-        btn.setAttribute("aria-pressed", on ? "true" : "false");
-      });
+function norm(s){ return (s || "").trim().toLowerCase(); }
 
-      items.forEach(item => {
-        const raw = (item.getAttribute("data-category") || "");
-        const tokens = raw.split(/\s+/).filter(Boolean); // data-category はスペース区切り前提
-        const show = (category === "all") || tokens.includes(category);
-        item.hidden = !show; // displayをいじらない
-      });
-    }
+function applyCategory(category) {
+  const cat = norm(category);
 
-    buttons.forEach(btn => {
-      btn.addEventListener("click", () => {
-        const category = (btn.getAttribute("data-category") || "all").trim();
-        applyCategory(category);
-      });
-    });
+  buttons.forEach(btn => {
+    const on = norm(btn.getAttribute("data-category") || "all") === cat;
+    btn.classList.toggle("active", on);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
 
-    applyCategory("all");
+  items.forEach(item => {
+    const raw = norm(item.getAttribute("data-category"));
+    const tokens = raw.split(/\s+/).filter(Boolean);
+    const show = (cat === "all") || tokens.includes(cat);
+    item.hidden = !show;
+  });
+}
+
+buttons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    applyCategory(btn.getAttribute("data-category") || "all");
+  });
+});
+
+applyCategory("all");
   })();
 
   // ---------- View toggle (card/list) ----------
