@@ -1,6 +1,6 @@
 ---
 layout: research
-title: ""
+title: "ある観点に言及したレビューに含まれそうな「文の断片」を見つけよう！"
 description: "iiWAS2025「Expanding Aspect Queries into Review Sentence Fragments for Product Comparison via LLM-Generated Synthetic Reviews」"
 date: 20251209
 thumbnail: "/assets/img/researches/yoshiharaiiWAS2025/thumb.png"
