@@ -167,4 +167,36 @@ try {
   console.log("[i18n] post titles switched to EN");
 })();
 
+(function () {
+  const isEn = location.pathname === "/en/" || location.pathname.startsWith("/en/");
+
+  const map = {
+    news: {
+      jp: "/news/",
+      en: "/en/news/",
+      enText: "more news →"
+    },
+    research: {
+      jp: "/research/",
+      en: "/en/research/",
+      enText: "more research →"
+    }
+  };
+
+  document.querySelectorAll("[data-i18n-link]").forEach(a => {
+    const key = a.dataset.i18nLink;
+    const conf = map[key];
+    if (!conf) return;
+
+    if (isEn) {
+      a.setAttribute("href", conf.en);
+      a.textContent = conf.enText;
+    } else {
+      a.setAttribute("href", conf.jp);
+    }
+  });
+
+  console.log("[i18n] more-links updated");
+})();
+
 </script>
