@@ -278,7 +278,7 @@ div.navigation{
 <ul>
 <li>研究室の概要、配属希望者向けの情報は<a href="./about">こちら</a>。</li>
 <li>研究プロジェクト、研究テーマは<a href="./research">こちら</a>。</li>
-<li><a href="/en/">English version is avairable.</a></li>
+<li><a href="/en/">English Version Available.</a></li>
 <li>Please check our <a href="/en/about">research and application details</a> before contacting us.</li>
 </ul>
 </div>
