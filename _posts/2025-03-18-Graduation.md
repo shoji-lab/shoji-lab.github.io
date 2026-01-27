@@ -2,6 +2,8 @@
 layout: post
 title: "【研究室】B4の学位授与式がおこなわれました"
 categories: 研究室
+title_en: "[Laboratory] Degree conferral ceremony for B4 students was held"
+
 ---
 
 本日3月18日、令和6年度静岡大学学位記授与式・祝賀会が挙行されました。  

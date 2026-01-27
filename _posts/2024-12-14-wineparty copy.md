@@ -2,6 +2,8 @@
 layout: post
 title: "【雑談】スロバキアのチーズと格安ワインで忘年会!!!"
 categories: 雑談
+title_en: "[Lab Life] Year-end party with Slovak cheese and affordable wine!!!"
+
 ---
 
 こんにちは！B4の大江です！

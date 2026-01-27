@@ -2,6 +2,8 @@
 layout: post
 title: "【論文】iiWAS2025にM1の大江、金田、吉原、渡邊の論文が採択されました"
 categories: 論文
+title_en: "[Publication] Papers by M1 students Oe, Kanada, Yoshihara, and Watanabe were accepted to iiWAS 2025"
+
 ---
 
 2025年に開催されるThe 27th International Conference on Information Integration and Web Intelligence（iiWAS2025）にて、M1の大江、金田、吉原、渡邊の論文4件がフルペーパーとして採択されました。

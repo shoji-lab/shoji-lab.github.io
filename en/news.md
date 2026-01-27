@@ -1,12 +1,14 @@
 ---
 layout: page
 title: News
-permalink: /news/
+permalink: /en/news/
 description: "静岡大学情報学部行動情報学科で情報アクセス技術の研究を行っている「莊司慶行研究室」の、最近の活動内容や雑記の一覧です。"
 
 ---
 
-莊司研究室の活動を掲載しています！
+This page features news and updates from the Shoji Laboratory, such as conference participation, events, and everyday life in the lab.
+
+Please note that some news titles and articles are written in Japanese. We recommend using your browser’s built-in translation tools if needed.
 
 <div class="news-container">
   <!-- カテゴリ選択ボタン -->
@@ -416,16 +418,15 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
           {%- endif -%}
         </div>
 
-        <h3 class="lab-news-card__title">{{ post.title | escape }}</h3>
-
-          <!-- <h3 class="lab-news-card__title"
-        data-title-jp="{{ post.title | escape }}"
-        {% if post.title_en %}
-        data-title-en="{{ post.title_en | escape }}"
-        {% endif %}
-    >
-      {{ post.title | escape }}
-    </h3> -->
+        <!-- <h3 class="lab-news-card__title">{{ post.title | escape }}</h3> -->
+        <h3 class="lab-news-card__title"
+            data-title-jp="{{ post.title | escape }}"
+            {% if post.title_en %}
+            data-title-en="{{ post.title_en | escape }}"
+            {% endif %}
+        >
+          {{ post.title | escape }}
+        </h3>
 
 
         {%- if site.show_excerpts and post.excerpt -%}

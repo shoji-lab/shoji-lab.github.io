@@ -2,6 +2,8 @@
 layout: post
 title: "【研究室】兵庫県立大学との合同論文合宿 in京都"
 categories: 研究室
+title_en: "[Laboratory] Joint paper writing camp with the University of Hyogo in Kyoto"
+
 ---
 
 こんにちは！B4の金田です！  

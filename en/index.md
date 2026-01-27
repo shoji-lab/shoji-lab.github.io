@@ -1,11 +1,6 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: home
+permalink: /en/
 ---
 
 <style>
@@ -261,25 +256,38 @@ div.navigation{
   <img src="/assets/img/index/top4.webp">
   <img src="/assets/img/index/top5.webp">  
   <img src="/assets/img/index/top3.webp">
-  <!-- リセット時にかくつかないようにするために最初の要素を追加 -->
   <img src="/assets/img/index/top1.webp">
-  <!-- 枚数、5枚用にしてあるので、新しい画像を入れたら1枚コメントアウトする-->
+
   <div class="text-overlay">
-    <div class="subtitle">静岡大学 情報学部 行動情報学科</div>
-    <div class="title">莊司研究室</div>
+    <div class="subtitle">
+      Faculty of Informatics, Shizuoka University<br>
+      Department of Behavioral Informatics
+    </div>
+    <div class="title">Shoji Laboratory</div>
   </div>
 </div>
 
-静岡大学 情報学部 行動情報学科 / 静岡大学大学院 総合科学技術研究科 情報学専攻 莊司慶行研究室では「人と社会を考慮した情報アクセス技術」の研究室として、
-情報検索アプリケーションや Web 情報学、ソーシャルコンピューティングなどの研究を行っています。
-人々が必要な時に必要な情報を獲得できるようにするために、ウェブ技術、データベース技術、機械学習（AI）技術などを活用して、さまざまな研究を進めています。
+The Shoji Laboratory, affiliated with the <strong>Faculty of Informatics, Department of Behavioral Informatics, Shizuoka University</strong>, and the <strong>Graduate School of Integrated Science and Technology, Program in Informatics</strong>, conducts research on <strong>information access technologies that take human and societal factors into account</strong>.
+
+Our research covers areas such as information retrieval applications, web informatics, and social computing. To enable people to obtain the information they need at the right time, we actively leverage web technologies, database technologies, and machine learning (AI), and pursue a wide range of research topics in information access.
 
 <div class="navigation">
 <ul>
-<li>研究室の概要、配属希望者向けの情報は<a href="./about">こちら</a>。</li>
-<li>研究プロジェクト、研究テーマは<a href="./research">こちら</a>。</li>
-<li>Please check our <a href="./about">research and application details</a> before contacting us.</li>
+  <li>
+    An overview of the laboratory and information for prospective students is available
+    <a href="/en/about">here</a>.
+  </li>
+  <li>
+    Our research projects and research topics can be found
+    <a href="/en/research">here</a>.
+  </li>
+  <li>
+    Please review our <a href="/en/about">research scope and application details</a>
+    before contacting us.
+  </li>
 </ul>
 </div>
+
+<!-- ![Photo](/assets/img/index/index.jpg "Laboratory") -->
 
 <!-- ![写真](/assets/img/index/index.jpg "研究室") -->

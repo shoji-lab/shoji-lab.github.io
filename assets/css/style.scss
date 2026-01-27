@@ -9,3 +9,26 @@
 nav.site-nav{
     z-index: 20;
 }
+
+.lang-switch{
+  position:absolute;
+  top:12px;
+  right:16px;
+  display:flex;
+  gap:8px;
+  z-index:50;
+}
+
+.lang-btn{
+  font-size:12px;
+  padding:4px 8px;
+  border:1px solid rgba(0,0,0,.2);
+  border-radius:999px;
+  text-decoration:none;
+  line-height:1;
+}
+
+.lang-btn.active{
+  font-weight:700;
+  border-color: rgba(0,0,0,.45);
+}

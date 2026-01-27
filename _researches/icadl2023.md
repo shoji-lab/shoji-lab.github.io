@@ -4,6 +4,7 @@ title: "博物館鑑賞を「個人の興味に合わせた宝探しゲーム」
 description: "ICADL 2023 「Personalized Treasure Hunt Game for Proactive Museum Appreciation by Analyzing Guide App Operation Log」"
 date: 20231220
 thumbnail: "/assets/img/researches/icadl2023/minpakuthumb.png"
+title_en: "Turn Museum Visits into Personalized Treasure Hunt Games"
 ---
 
 <div class="catch">

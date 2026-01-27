@@ -2,6 +2,8 @@
 layout: post
 title: "中野が作ったアプリがテレビの取材を受けました！"
 categories: 研究室
+title_en: "An application developed by Nakano was featured in a television interview"
+
 ---
 
 B4 の中野です。

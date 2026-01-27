@@ -2,6 +2,8 @@
 layout: post
 title: "【発表】WebDB夏のワークショップ2025でM1の大江と金田が学生奨励賞を受賞しました"
 categories: 発表
+title_en: "[Presentation] M1 students Oe and Kanada received the Student Encouragement Award at the WebDB Summer Workshop 2025"
+
 ---
 2025年9月16日から18日の3日間おこなわれた「**WebDB夏のワークショップ2025**」にて、M1の大江 優真さんと金田 悠路さんが学生奨励賞を受賞しました。
 

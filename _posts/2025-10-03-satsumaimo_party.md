@@ -2,6 +2,8 @@
 layout: post
 title: "【雑談】秋と言ったらやっぱりサツマイモでしょ！パーティーを開催"
 categories: 雑談
+title_en: "[Lab Life] Autumn means sweet potatoes! We held a sweet potato party"
+
 ---
 
 秋の風が少しずつ街を包みはじめ、涼しい空気とともに季節の移り変わりを感じるようになりました。  
