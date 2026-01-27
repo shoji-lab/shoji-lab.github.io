@@ -4,6 +4,7 @@ title: "生成AIにレシピを読ませて、「ほかのレシピとの違い�
 description: "iiWAS2025「Generating Distinctive Recipe Names via Relative Feature Comparison in Recipe Set」"
 date: 20251209
 thumbnail: "/assets/img/researches/watanabeiiWAS2025/thumb.png"
+title_en: "Make Recipe Differences Explainable with GenAI"
 ---
 
 <div class="catch">

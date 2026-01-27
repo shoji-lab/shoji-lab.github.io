@@ -2,6 +2,8 @@
 layout: post
 title: "【研究室】B4の金田が令和6年度静岡大学情報学部長学習奨励賞を受賞"
 categories: 研究室
+title_en: "[Laboratory] B4 student Kanada received the 2024 Dean’s Award for Academic Excellence, Faculty of Informatics, Shizuoka University"
+
 ---
 
 本日3月18日、令和6年度静岡大学学位記授与式・祝賀会にて、

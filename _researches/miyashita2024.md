@@ -4,6 +4,7 @@ title: "「みんなが○○と評している映画」を、キーワードで
 description: "BigComp2024「BERT-Based Movie Keyword Search Leveraging User-Generated Movie Rankings and Reviews」"
 date: 20240103
 thumbnail: "/assets/img/researches/miyashita2024/thumb.png"
+title_en: "Search for “Movies Everyone Calls ○○○” Using Keywords"
 ---
 
 <div class="catch">

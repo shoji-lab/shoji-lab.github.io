@@ -4,6 +4,7 @@ title: "エルフやドワーフと質問を出し合いながらミュージア
 description: "ICADL2025「Question-Based Viewing with LLM-Powered Personified Characters: A Role-Playing Dialogue System for Perspective-Taking in Museums」"
 date: 20251014
 thumbnail: "/assets/img/researches/icadl2025/thumb.png"
+title_en: "Explore Museums Through Question-Based Dialogue with Elves and Dwarves"
 ---
 
 <div class="catch">

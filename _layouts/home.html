@@ -50,7 +50,15 @@ layout: base
     <a class="{{ card_classes }}" href="{{ post.url | relative_url }}">
       <div class="lab-news-card__body">
         <span class="lab-news-card__date">{{ post.date | date: date_format }}</span>
-        <h3 class="lab-news-card__title">{{ post.title | escape }}</h3>
+        <!-- <h3 class="lab-news-card__title">{{ post.title | escape }}</h3> -->
+        <h3 class="lab-news-card__title"
+            data-title-jp="{{ post.title | escape }}"
+            {% if post.title_en %}
+            data-title-en="{{ post.title_en | escape }}"
+            {% endif %}
+        >
+          {{ post.title | escape }}
+        </h3>         
         {%- if site.show_excerpts and post.excerpt -%}
           <p class="lab-news-card__excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
         {%- endif -%}
@@ -99,7 +107,17 @@ layout: base
   {% for item in sorted_researches limit:6 %}
     <div class=card>
     <a href="{{ item.url }}"><img src="{{ item.thumbnail }}" loading="lazy"></a>
-    <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+    <!-- <h3><a href="{{ item.url }}">{{ item.title }}</a></h3> -->
+     <h3>
+      <a href="{{ item.url }}"
+        data-title-jp="{{ item.title | escape }}"
+        {% if item.title_en %}
+        data-title-en="{{ item.title_en | escape }}"
+        {% endif %}
+      >
+        {{ item.title }}
+  </a>
+</h3>
     </div>
   {% endfor %}
 </div>

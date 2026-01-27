@@ -4,6 +4,7 @@ title: "「ある商品の購入目的を達成できる、ぜんぜん別の商
 description: "2024年 データベース学会論文誌 「商品レビューグラフを用いた利用目的を達成可能な代替商品の検索」"
 date: 20240830
 thumbnail: "/assets/img/researches/hirano2024/thumb.png"
+title_en: "Find Unexpected Alternative Products That Still Fulfill the Same Purchase Goal"
 ---
 
 <div class="catch">

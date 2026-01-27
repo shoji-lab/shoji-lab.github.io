@@ -418,6 +418,16 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
 
         <h3 class="lab-news-card__title">{{ post.title | escape }}</h3>
 
+          <!-- <h3 class="lab-news-card__title"
+        data-title-jp="{{ post.title | escape }}"
+        {% if post.title_en %}
+        data-title-en="{{ post.title_en | escape }}"
+        {% endif %}
+    >
+      {{ post.title | escape }}
+    </h3> -->
+
+
         {%- if site.show_excerpts and post.excerpt -%}
           <p class="lab-news-card__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
         {%- endif -%}

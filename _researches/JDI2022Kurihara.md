@@ -4,6 +4,7 @@ title: "任意のキーワードに対して、レビュー中に現れる多様
 description: "Rinton Press 論文誌 JDI 「Doc2Vec-based Approach for Extracting Diverse Evaluation Expressions from Online Review Data」"
 date: 20221212
 thumbnail: "/assets/img/researches/JDI2022kurihara/thumb.png"
+title_en: "Discover Diverse Paraphrased Expressions Hidden in Reviews"
 ---
 
 <div class="catch">

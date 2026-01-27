@@ -2,6 +2,8 @@
 layout: post
 title: "【発表】学部4年生がIR Readingで3件の論文紹介をおこないました！"
 categories: 発表
+title_en: "[Presentation] Fourth-year undergraduate students presented three papers at IR Reading"
+
 ---
 こんにちは、B4の金田です。
 

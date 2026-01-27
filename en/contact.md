@@ -4,19 +4,28 @@ title: Contact Us
 permalink: /en/contact/
 form: true
 ---
-<b>メールアドレス</b>
-<p>莊司研究室のメール<br>
-    lab🐀shoji-lab.jp<br>
-    （🐀を@に置き換えてください。）
+
+
+<b>Email</b>
+<p>
+  Shoji Laboratory email<br>
+  lab🐀shoji-lab.jp<br>
+  (Replace 🐀 with @.)
 </p>
 
-<b>研究室所在地</b>
-<p>〒432-8011 静岡県浜松市中区城北3-5-1
-<br>静岡大学情報学部 情報学部2号館 J2525</br></p>
+<b>Lab Location</b>
+<p>
+  3-5-1 Johoku, Naka-ku, Hamamatsu, Shizuoka 432-8011, Japan
+    <br>
+  Faculty of Informatics, Shizuoka University — Building 2, Room J2525
+</p>
 
-<b>莊司居室所在地</b>
-<p>〒432-8011 静岡県浜松市中区城北3-5-1
-<br>静岡大学情報学部 情報学部2号館 J2317</br></p>
+<b>Shoji’s Office Location</b>
+<p>
+  3-5-1 Johoku, Naka-ku, Hamamatsu, Shizuoka 432-8011, Japan
+    <br>
+  Faculty of Informatics, Shizuoka University — Building 2, Room J2317
+</p>
 
 
 

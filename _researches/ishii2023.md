@@ -4,6 +4,7 @@ title: "レビュー中の記述が、何について書かれているかを整
 description: "iiWAS2023「Generating Fine-Grained Aspect Names from Movie Review Sentences Using Generative Language Model」"
 date: 20231202
 thumbnail: "/assets/img/researches/ishii2023/thumb.png"
+title_en: "Organize What Each Review Sentence Is Talking About"
 ---
 
 <div class="catch">

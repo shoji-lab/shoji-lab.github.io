@@ -2,6 +2,8 @@
 layout: post
 title: "【発表】WebDB夏のワークショップ2025でM1の大江、金田、B4の杉田が口頭発表にて発表しました"
 categories: 発表
+title_en: "[Presentation] M1 students Oe and Kanada, and B4 student Sugita gave oral presentations at the WebDB Summer Workshop 2025"
+
 ---
 こんにちは、B4の杉田でござる。  
 2025年9月16日から18日の三日間にかけて催された「WebDB夏のワークショップ2025」にて、M1の大江殿、金田殿、そして拙者杉田の三名が研究発表を行ったでござる。

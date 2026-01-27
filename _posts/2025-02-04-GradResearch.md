@@ -2,6 +2,8 @@
 layout: post
 title: "【発表】学部4年生が卒業研究最終発表をおこないました！"
 categories: 発表
+title_en: "[Presentation] Fourth-year undergraduate students gave their final graduation research presentations"
+
 ---
 
 静岡大学情報学部の学部4年生による卒業研究の最終発表がおこなわれました。  

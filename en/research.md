@@ -196,7 +196,7 @@ At the Shoji Laboratory, we conduct research on a wide variety of topics centere
 
 This page provides an overview of our main research themes and selected examples of our work.
 
-Our publications are summarized on <a href="https://shoji-lab.jp/">Shoji’s personal website</a>.
+Our publications are summarized on <a href="https://shoji-lab.jp/?lang=en">Shoji’s personal website</a>.
 
 <h1>Research Themes</h1>
 
@@ -438,7 +438,20 @@ Our publications are summarized on <a href="https://shoji-lab.jp/">Shoji’s per
 {% for item in sorted_researches %}
 <div class=paper>
 <img class="box" src="{{ item.thumbnail }}" loading="lazy">
-  <p><strong><a href="{{ item.url }}">{{ item.title }}</a></strong></p>
+  <!-- <p><strong><a href="{{ item.url }}">{{ item.title }}</a></strong></p> -->
+  <p>
+  <strong>
+    <a href="{{ item.url }}"
+       class="research-title"
+       data-title-jp="{{ item.title | escape }}"
+       {% if item.title_en %}
+       data-title-en="{{ item.title_en | escape }}"
+       {% endif %}
+    >
+      {{ item.title }}
+    </a>
+  </strong>
+</p>
   <p>{{ item.description }}</p>
 </div>
 {% endfor %}

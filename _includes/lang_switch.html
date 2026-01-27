@@ -38,26 +38,59 @@
   });
 })();
 
+// (function () {
+//   const path = window.location.pathname;
+
+//   let jpPath, enPath;
+
+//   if (path === "/en/" || path.startsWith("/en/")) {
+//     // EN → JP
+//     enPath = path;
+//     jpPath = path.replace(/^\/en/, "") || "/";
+//     document.getElementById("lang-en").classList.add("active");
+//   } else {
+//     // JP → EN
+//     jpPath = path;
+//     enPath = "/en" + (path === "/" ? "/" : path);
+//     document.getElementById("lang-jp").classList.add("active");
+//   }
+
+//   document.getElementById("lang-jp").href = jpPath;
+//   document.getElementById("lang-en").href = enPath;
+// })();
+
 (function () {
-  const path = window.location.pathname;
+  const path = location.pathname;
+  const isEn = path === "/en/" || path.startsWith("/en/");
 
-  let jpPath, enPath;
+  const jpBtn = document.getElementById("lang-jp");
+  const enBtn = document.getElementById("lang-en");
+  if (!jpBtn || !enBtn) return;
 
-  if (path === "/en/" || path.startsWith("/en/")) {
-    // EN → JP
-    enPath = path;
-    jpPath = path.replace(/^\/en/, "") || "/";
-    document.getElementById("lang-en").classList.add("active");
-  } else {
-    // JP → EN
-    jpPath = path;
-    enPath = "/en" + (path === "/" ? "/" : path);
-    document.getElementById("lang-jp").classList.add("active");
-  }
+  const jpPath = isEn ? (path.replace(/^\/en/, "") || "/") : path;
+  const enPathDefault = isEn ? path : ("/en" + (path === "/" ? "/" : path));
 
-  document.getElementById("lang-jp").href = jpPath;
-  document.getElementById("lang-en").href = enPath;
+  // EN版を作らないページ判定
+  const isNewsPost = /^\/[^\/]+\/\d{4}\/\d{2}\/\d{2}\/.+\.html$/.test(jpPath);
+  const isResearchDetail = /^\/researches\/.+\.html$/.test(jpPath);
+
+  // member: 一覧(/member/)はENあり、個別(/member/xxx...)はENなし
+  const isMemberIndex = jpPath === "/member/" || jpPath === "/member";
+  const isMemberDetail = jpPath.startsWith("/member/") && !isMemberIndex;
+
+  // ENリンクの最終決定
+  const enFinal = (isNewsPost || isResearchDetail || isMemberDetail) ? jpPath : enPathDefault;
+
+  jpBtn.href = jpPath;
+  enBtn.href = enFinal;
+
+  jpBtn.classList.toggle("active", !isEn);
+  enBtn.classList.toggle("active", isEn);
+
+  console.log("[i18n] lang links:", { jpPath, enFinal, isNewsPost, isResearchDetail, isMemberIndex, isMemberDetail });
 })();
+
+
 
 // ここからメインページの見出し書き換え
 console.log("[i18n] running on", location.pathname);
@@ -66,6 +99,7 @@ setTimeout(() => {
   const isEnNow = location.pathname === "/en/" || location.pathname.startsWith("/en/");
   if (!isEnNow) return;
 
+  // 見出し（Latest News など）
   const dict = {
     "latest-news": "Latest News",
     "recent-research": "Recent Research Topics"
@@ -76,7 +110,15 @@ setTimeout(() => {
     if (dict[key]) el.textContent = dict[key];
   });
 
-  console.log("[i18n] headings updated");
+  // ▼▼ ここが重要：記事タイトルの切り替え ▼▼
+  document.querySelectorAll("[data-title-en]").forEach(el => {
+    const en = el.dataset.titleEn;
+    if (en && en.trim() !== "") {
+      el.textContent = en;
+    }
+  });
+
+  console.log("[i18n] headings + post titles updated");
 }, 0);
 
 // 左上のサイトタイトル（ページトップ）リンクを言語に合わせる
@@ -92,5 +134,37 @@ try {
 } catch (e) {
   console.warn("[i18n] site-title link skipped:", e);
 }
+
+// 記事タイトルに英語版があればそっちを表示
+
+(function () {
+  const path = location.pathname;
+  const isEn = path === "/en/" || path.startsWith("/en/");
+  if (!isEn) return;
+
+  // title_en / title-jp を持つ要素を探して差し替え
+  document.querySelectorAll("[data-title-en]").forEach(el => {
+    const en = el.dataset.titleEn;
+    if (en && en.trim() !== "") {
+      el.textContent = en;
+    }
+  });
+
+  console.log("[i18n] card titles updated");
+})();
+
+(function () {
+  const isEn = location.pathname === "/en/" || location.pathname.startsWith("/en/");
+  if (!isEn) return;
+
+  document.querySelectorAll("[data-title-en]").forEach(el => {
+    const en = el.dataset.titleEn;
+    if (en && en.trim() !== "") {
+      el.textContent = en;
+    }
+  });
+
+  console.log("[i18n] post titles switched to EN");
+})();
 
 </script>

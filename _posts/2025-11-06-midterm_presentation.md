@@ -2,6 +2,7 @@
 layout: post
 title: "【発表】学部4年生が卒業研究中間発表をおこないました！"
 categories: 発表
+title_en: "[Presentation] Fourth-year undergraduate students gave their midterm presentations for their graduation research"
 ---
 
 情報学部の学部4年生による卒業研究の中間発表が行われました。

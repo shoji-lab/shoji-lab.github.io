@@ -2,6 +2,7 @@
 layout: post
 title: "【発表】中野がICADL2025にて発表しました！"
 categories: 発表
+title_en: "[Presentation] Mr. Nakano presented his work at ICADL 2025"
 ---
 
 図書館情報学・情報検索分野の主要国際会議の一つである ICADL 2025（The 27th International Conference on Asia-Pacific Digital Libraries）が、フィリピン国立大学（マニラ BGC）にて開催され、学部 4 年生の中野が発表してきました！

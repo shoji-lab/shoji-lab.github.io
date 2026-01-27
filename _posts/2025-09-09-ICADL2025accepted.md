@@ -2,6 +2,8 @@
 layout: post
 title: "【論文】ICADL2025にB4の中野の論文が採録されました"
 categories: 論文
+title_en: "[Publication] A paper by B4 student Nakano was accepted to ICADL 2025"
+
 ---
 
 2025年に開催予定の図書館情報学・情報検索分野の主要国際会議の一つであるICADL 2025（The 27th International Conference on Asia-Pacific Digital Libraries）に、学部4年生の中野くんの発表がShort Paperとして採録されました。

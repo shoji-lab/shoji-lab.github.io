@@ -2,9 +2,6 @@
 layout: home
 permalink: /en/
 ---
-=======
-permalink: /en/
----
 
 <style>
 div.title {
@@ -270,14 +267,9 @@ div.navigation{
   </div>
 </div>
 
-The Shoji Laboratory, affiliated with the  
-<strong>Faculty of Informatics, Department of Behavioral Informatics, Shizuoka University</strong>,  
-and the <strong>Graduate School of Integrated Science and Technology, Program in Informatics</strong>,  
-conducts research on <strong>information access technologies that take human and societal factors into account</strong>.
+The Shoji Laboratory, affiliated with the <strong>Faculty of Informatics, Department of Behavioral Informatics, Shizuoka University</strong>, and the <strong>Graduate School of Integrated Science and Technology, Program in Informatics</strong>, conducts research on <strong>information access technologies that take human and societal factors into account</strong>.
 
-Our research covers areas such as information retrieval applications, web informatics, and social computing.  
-To enable people to obtain the information they need at the right time, we actively leverage web technologies,
-database technologies, and machine learning (AI), and pursue a wide range of research topics in information access.
+Our research covers areas such as information retrieval applications, web informatics, and social computing. To enable people to obtain the information they need at the right time, we actively leverage web technologies, database technologies, and machine learning (AI), and pursue a wide range of research topics in information access.
 
 <div class="navigation">
 <ul>
@@ -299,4 +291,3 @@ database technologies, and machine learning (AI), and pursue a wide range of res
 <!-- ![Photo](/assets/img/index/index.jpg "Laboratory") -->
 
 <!-- ![写真](/assets/img/index/index.jpg "研究室") -->
->>>>>>> 56f79f6 (add English version prototype)

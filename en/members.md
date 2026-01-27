@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Members
 permalink: /en/member/
 description: "静岡大学情報学部行動情報学科で情報アクセス技術の研究を行っている「莊司慶行研究室」に所属する教員・学生の一覧です。"
 ---
@@ -61,7 +60,7 @@ p.grade{
 
 <h1>Faculty</h1>
 <div class="image-tile">
-    <a href="./yoshiyuki_shoji.html">
+    <a href="/member/yoshiyuki_shoji.html">
         <img src="/assets/img/members/yoshiyuki_shoji.jpg" alt="Faculty member">
         <div class="caption">
         <h3 class="fullname">Yoshiyuki Shoji</h3>
@@ -71,28 +70,28 @@ p.grade{
 
 <h1>Master’s Students (1st Year)</h1>
 <div class="image-tile">
-    <a href="./yuma_oe.html">
+    <a href="/member/yuma_oe.html">
         <img src="/assets/img/members/yuma_oe.jpg" alt="Graduate student">
         <div class="caption">
         <h3 class="fullname">Yuma Oe</h3>
         <p class="grade">M1</p></div>
     </a>
 
-    <a href="./yuro_kanada.html">
+    <a href="/member/yuro_kanada.html">
         <img src="/assets/img/members/yuro_kanada.jpg" alt="Graduate student">
         <div class="caption">
         <h3 class="fullname">Yuro Kanada</h3>
         <p class="grade">M1</p></div>
     </a>
 
-    <a href="./naito_yoshihara.html">
+    <a href="/member/naito_yoshihara.html">
         <img src="/assets/img/members/naito_yoshihara.jpg" alt="Graduate student">
         <div class="caption">
         <h3 class="fullname">Naito Yoshihara</h3>
         <p class="grade">M1</p></div>        
     </a>
 
-    <a href="./maoto_watanabe.html">
+    <a href="/member/maoto_watanabe.html">
         <img src="/assets/img/members/maoto_watanabe.jpg" alt="Graduate student">
         <div class="caption">
         <h3 class="fullname">Maoto Watanabe</h3>
@@ -103,35 +102,35 @@ p.grade{
 <h1>Undergraduate Students (4th Year)</h1>
 <div class="image-tile">
 
-    <a href="./daichi_sugita.html">
+    <a href="/member/daichi_sugita.html">
         <img src="/assets/img/members/daichi_sugita.jpg" alt="Undergraduate student">
         <div class="caption">
         <h3 class="fullname">Daichi Sugita</h3>
         <p class="grade">B4</p></div>
     </a>
 
-    <a href="./akito_nakano.html">
+    <a href="/member/akito_nakano.html">
         <img src="/assets/img/members/akito_nakano.jpg" alt="Undergraduate student">
         <div class="caption">
         <h3 class="fullname">Akito Nakano</h3>
         <p class="grade">B4</p></div>
     </a>
 
-    <a href="./naoto_yazaki.html">
+    <a href="/member/naoto_yazaki.html">
         <img src="/assets/img/members/naoto_yazaki.jpg" alt="Undergraduate student">
         <div class="caption">
         <h3 class="fullname">Naoto Yazaki</h3>
         <p class="grade">B4</p></div>        
     </a>
 
-    <a href="./shun_yamaguchi.html">
+    <a href="/member/shun_yamaguchi.html">
         <img src="/assets/img/members/shun_yamaguchi.jpg" alt="Undergraduate student">
         <div class="caption">
         <h3 class="fullname">Shun Yamaguchi</h3>
         <p class="grade">B4</p></div>
     </a>
 
-    <a href="./yasuyuki_wada.html">
+    <a href="/member/yasuyuki_wada.html">
         <img src="/assets/img/members/yasuyuki_wada.jpg" alt="Undergraduate student">
         <div class="caption">
         <h3 class="fullname">Yasuyuki Wada</h3>
@@ -141,21 +140,21 @@ p.grade{
 
 <h1>Undergraduate Students (3rd Year)</h1>
 <div class="image-tile">
-    <a href="./shiryu_okura.html">
+    <a href="/member/shiryu_okura.html">
         <img src="/assets/img/members/shiryu_okura.jpg" alt="Undergraduate student">
         <div class="caption">
         <h3 class="fullname">Shiryu Okura</h3>
         <p class="grade">B3</p></div>
     </a>
 
-    <a href="./tomoki_shirakawa.html">
+    <a href="/member/tomoki_shirakawa.html">
         <img src="/assets/img/members/tomoki_shirakawa.png" alt="Undergraduate student">
         <div class="caption">
         <h3 class="fullname">Tomoki Shirakawa</h3>
         <p class="grade">B3</p></div>
     </a>
 
-    <a href="./tsumugu_somatomo.html">
+    <a href="/member/tsumugu_somatomo.html">
         <img src="/assets/img/members/tsumugu_somatomo.jpg" alt="Undergraduate student">
         <div class="caption">
         <h3 class="fullname">Tsumugu Somatomo</h3>
@@ -165,11 +164,11 @@ p.grade{
 
 <h1>International Students</h1>
 <div class="image-tile">
-    <a href="./eduards_teteris.html">
+    <a href="/member/eduards_teteris.html">
         <img src="/assets/img/members/eduards_teteris.jpg" alt="Exchange student">
         <div class="caption">
         <h3 class="fullname">Eduards Teteris</h3>
-        <p class="grade">Exchange Student (Undergraduate, 3rd Year)</p></div>
+        <p class="grade">Undergraduate (3rd Year)</p></div>
     </a>
 </div>
 
@@ -179,7 +178,7 @@ p.grade{
         <img src="/assets/img/members/anh.jpg" alt="Alumni">
         <div class="caption">
         <h3 class="fullname">Vu Thi Ngoc Anh</h3>
-        <p class="grade">Graduated in September 2024</p></div>
+        <p class="grade">Graduated September 2024</p></div>
     </a>
 
     <a>
@@ -206,7 +205,7 @@ p.grade{
     <a>
         <img src="/assets/img/members/no-photo-01.png" alt="Alumni">
         <div class="caption">
-        <h3 class="fullname">Momo Takeuchi</h3>
+        <h3 class="fullname">Moe Takeuchi</h3>
         <p class="grade">Graduated in 2023</p></div>
     </a>
 </div>
