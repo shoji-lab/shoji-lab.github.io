@@ -256,13 +256,13 @@ div.navigation{
 </style>
 
 <div class="carousel">
-  <img src="./assets/img/index/top1.webp">
-  <img src="./assets/img/index/top2.webp">
-  <img src="./assets/img/index/top4.webp">
-  <img src="./assets/img/index/top5.webp">  
-  <img src="./assets/img/index/top3.webp">
+  <img src="/assets/img/index/top1.webp">
+  <img src="/assets/img/index/top2.webp">
+  <img src="/assets/img/index/top4.webp">
+  <img src="/assets/img/index/top5.webp">  
+  <img src="/assets/img/index/top3.webp">
   <!-- リセット時にかくつかないようにするために最初の要素を追加 -->
-  <img src="./assets/img/index/top1.webp">
+  <img src="/assets/img/index/top1.webp">
   <!-- 枚数、5枚用にしてあるので、新しい画像を入れたら1枚コメントアウトする-->
   <div class="text-overlay">
     <div class="subtitle">静岡大学 情報学部 行動情報学科</div>

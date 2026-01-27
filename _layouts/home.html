@@ -17,7 +17,7 @@ layout: base
   {% endif %}
 
 <hr>
-<h2>最新情報</h2>
+<h2 data-i18n="latest-news">最新情報</h2>
 
 {%- if posts.size > 0 -%}
   {%- if page.list_title -%}
@@ -92,7 +92,8 @@ layout: base
 
 <hr>
 
-<h2> 最近の研究トピック </h2>
+<h2 data-i18n="recent-research">最近の研究トピック</h2>
+
 <div class="card-grid">
   {% assign sorted_researches = site.researches | sort: 'date' | reverse %}
   {% for item in sorted_researches limit:6 %}
