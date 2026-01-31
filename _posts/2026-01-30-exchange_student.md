@@ -2,7 +2,7 @@
 layout: post
 title: "【研究室】半年間の留学生チューター業務を完遂！"
 categories: 研究室
-title_en: "[International Student Tutor] Mr. Kanada’s Experience Supporting Exchange Student Mr. Teteris Eduards"
+title_en: "[Lab Life] Mr. Kanada’s Experience Supporting Exchange Student Mr. Teteris Eduards"
 ---
 明けましておめでとうございます。M1の金田です。
 
