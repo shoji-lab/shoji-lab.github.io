@@ -3,6 +3,7 @@ layout: page
 title: Contact Us
 permalink: /en/contact/
 form: true
+lang: en
 ---
 
 
