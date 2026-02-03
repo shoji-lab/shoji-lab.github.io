@@ -3,7 +3,7 @@ layout: page
 permalink: /en/member/
 description: "Research Members in Shoji Lab. Shizuoka Univ., Japan"
 lang: en
-title: Members in Shoji Lab.
+title: " Shoji Lab. Shizuoka Univ."
 ---
 
 <style>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact Us
+title: Contact to Shoji Lab. Shizuoka Univ.
 permalink: /en/contact/
 form: true
 lang: en

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: News
+title: "News on Shoji Lab. Shizuoka Univ."
 permalink: /en/news/
 description: "静岡大学情報学部行動情報学科で情報アクセス技術の研究を行っている「莊司慶行研究室」の、最近の活動内容や雑記の一覧です。"
 
