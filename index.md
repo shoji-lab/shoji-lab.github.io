@@ -6,6 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+description: "人と社会を考慮する情報アクセス技術の莊司慶行研究室。人々が必要な時に必要な情報を獲得できるようにするために、ウェブ技術、データベース技術、機械学習（AI）技術などを活用して、さまざまな研究を進めています。静岡大学 情報学部 行動情報学科。"
 ---
 
 <style>
