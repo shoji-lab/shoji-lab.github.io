@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Research in Shoji Lab. Shizuoka Univ.
 permalink: /en/research/
 description: "This page introduces selected past research conducted in the Shoji Laboratory, which studies information access technologies at the Department of Behavioral Informatics, Faculty of Informatics, Shizuoka University."
 

@@ -2,7 +2,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="莊司,荘司,庄司,莊司研究室,荘司研究室,庄司研究室,静岡大学,静大,行動情報,情報学部,静岡大学大学院,総合科学技術研究科,情報学専攻">
+{% if page.lang == "en" %}
+<link rel="alternate" hreflang="en" href="{{ site.url }}/en{{ page.url | replace:'/en','' }}" />
+<link rel="alternate" hreflang="ja" href="{{ site.url }}{{ page.url | replace:'/en','' }}" />
+<meta name="keywords" content="莊司,荘司,庄司,Shoji,Yoshiyuki,Yoshiyuki Shoji,Shizuoka Univ,Shizuoka University, Informatics, Graduate School of Integrated Science and Technology,Behavior Informatics">
+{% else %}
+<meta name="keywords" content="莊司,荘司,庄司,莊司研究室,荘司研究室,庄司研究室,静岡大学,静大,行動情報,情報学部,静岡大学大学院,総合科学技術研究科,情報学専攻">
+<link rel="alternate" hreflang="ja" href="{{ site.url }}{{ page.url }}" />
+<link rel="alternate" hreflang="en" href="{{ site.url }}/en{{ page.url }}" />
+{% endif %}
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}/" />
+
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXB5Q2GYYG"></script>

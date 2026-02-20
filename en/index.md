@@ -1,6 +1,9 @@
 ---
 layout: home
 permalink: /en/
+title: "Shoji Laboratory, Shozuoka University Japan"
+description: "Shoji Lab at Shizuoka University conducts research on information access technologies, focusing on search, retrieval, and human-centered interaction in the era of generative AI."
+lang: en
 ---
 
 <style>

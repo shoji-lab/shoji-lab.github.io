@@ -2,6 +2,7 @@
 layout: base
 title: "About"
 permalink: /en/about/
+lang: en
 ---
 
 <header class="about-hero">
