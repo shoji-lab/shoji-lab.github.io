@@ -3,8 +3,8 @@ layout: research
 title: "画像生成AIに、「この服に似合うコーディネート」を考えてもらおう！"
 description: "iiWAS2025「Can Stable Diffusion Recommend Outfits?: Outfit Recommendation from Fashion Item Images via Generative AI」"
 date: 20251210
-thumbnail: "/assets/img/researches/oeiWAS2025/thumb.png"
-title_en: ""
+thumbnail: "/assets/img/researches/oeiiWAS2025/thumb.png"
+title_en: "What Goes with This Shirt? Asking Generative AI for Outfit Ideas"
 ---
 
 <div class="catch">
