@@ -1,6 +1,6 @@
 ---
 layout: research
-title: ""
+title: "文書を「各次元が独立して意味を持つベクトル」に変換しよう！"
 description: "iiWAS2025「Learning Disentangled Document Representations Based on a Classical Shallow Neural Encoder」"
 date: 20251209
 thumbnail: "/assets/img/researches/kanadaiiWAS2025/thumb.png"
