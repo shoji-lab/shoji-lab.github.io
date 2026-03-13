@@ -10,11 +10,11 @@ permalink: /member/shiryu_okura
 
 ### プロフィール
 趣味
-・音楽鑑賞
-・ひとり旅行
+・遊園地巡り
+・旅行
 
 ### 研究テーマ
-考え中
+曖昧な言葉のクエリにも対応できる画像検索
 
 ### 連絡先
 okura.shiryu.23@shizuoka.ac.jp
