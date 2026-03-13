@@ -3,11 +3,14 @@ layout: post
 title: "【受賞】B4の中野が学長表彰を受賞しました！"
 categories: 発表
 title_en: "[Award] Nakano from B4 received the President's Award!"
-
 ---
+
 こんにちは！B4の中野です！
 この度、**令和７年度静岡大学学生表彰**をいただくことができました！
-[DEIM2025での学生プレゼンテーション賞](https://shoji-lab.github.io/%E7%99%BA%E8%A1%A8/2025/03/05/DEIM2025Award.html){:target="_blank"}や、[はまはくAIプロジェクトの報道発表](https://shoji-lab.github.io/%E7%A0%94%E7%A9%B6%E5%AE%A4/2025/08/21/press_conference.html){:target="_blank"}など、研究成果が認められて受賞することができました！
+この賞は、研究やその他行事の受賞経験などから評価されるもので、毎年、全学で10人程度が選出されます。今年は情報学部から、私を含む3名が選出されました。
+学部生としての受賞は珍しく、この度は光栄なことに賞をいただくことができました。
+
+[DEIM2025での学生プレゼンテーション賞](https://shoji-lab.github.io/%E7%99%BA%E8%A1%A8/2025/03/05/DEIM2025Award.html){:target="\_blank"}や、[はまはくAIプロジェクトの報道発表](https://shoji-lab.github.io/%E7%A0%94%E7%A9%B6%E5%AE%A4/2025/08/21/press_conference.html){:target="\_blank"}など、研究成果が認められて受賞することができました！
 
 ![写真1](/assets\img\posts\20260313\DSC06123.webp "中野の受賞風景")
 
