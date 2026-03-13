@@ -3,7 +3,7 @@ layout: page
 title: 杣友紡
 permalink: /member/tsumugu_somatomo
 ---
-![写真](/assets/img/members/tsumugu_somatomo.jpg "金田")
+![写真](/assets/img/members/tsumugu_somatomo.jpg "杣友")
 
 ### 所属
 静岡大学 情報学部行動情報学科
@@ -15,7 +15,7 @@ permalink: /member/tsumugu_somatomo
 ・自転車
 
 ### 研究テーマ
-考え中
+研究リソース検索システム
 
 ### 連絡先
 somatomo.tsumugu.23@shizuoka.ac.jp
