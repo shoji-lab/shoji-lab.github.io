@@ -17,10 +17,14 @@ permalink: /member/maoto_watanabe
 調理の特徴と他レシピとの差異に注目したレシピの集合内における相対的な説明の生成
 
 ## 論文
-1. **Generating Distinctive Recipe Names via Relative Feature Comparison in Recipe Set**  
+1. **調理のきっかけとレシピ内容に注目するエンコーダの相互学習による同じ目的を達成できそうなレシピの発見**  
+著者: 渡邊磨王斗（静大）, 莊司慶行（静大）  
+発表会議: 第18回データ工学と情報マネジメントに関するフォーラム, 2026
+
+2. **Generating Distinctive Recipe Names via Relative Feature Comparison in Recipe Set**  
 著者: Maoto Watanabe（静大） and Yoshiyuki Shoji（静大）  
 発表会議: The 27th International Conference on Information Integration and Web Intelligence (iiWAS2025)  
 
-2. **調理の特徴と他レシピとの差異に注目したレシピの集合内における相対的な説明の生成**  
+3. **調理の特徴と他レシピとの差異に注目したレシピの集合内における相対的な説明の生成**  
 著者: 渡邊磨王斗（静大）, 莊司慶行（静大）  
 発表会議: 第17回データ工学と情報マネジメントに関するフォーラム, 2025
