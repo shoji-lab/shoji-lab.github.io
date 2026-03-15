@@ -57,6 +57,7 @@ permalink: /member/yuro_kanada
 ・WebDB夏のワークショップ2025　学生奨励賞
 ・第18回データ工学と情報マネジメントに関するフォーラム　学生プレゼンテーション賞 
 
+
 ### 連絡先
 kanada.yuro.21@shizuoka.ac.jp
 
