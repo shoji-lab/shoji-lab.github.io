@@ -26,10 +26,10 @@ permalink: /member/naoto_yazaki
 
 ## 受賞
 
-・東海関西データベースワークショップ2025　最優秀賞  
-・第18回データ工学と情報マネジメントに関するフォーラム　学生プレゼンテーション賞
+- 東海関西データベースワークショップ2025　最優秀賞
+- 第18回データ工学と情報マネジメントに関するフォーラム　学生プレゼンテーション賞
 
 ## 連絡先・外部サイト
 
-・yazaki.naoto.22@shizuoka.ac.jp
-・[ポートフォリオ](https://yazaki7010.github.io/About-Yazaki/)
+- yazaki.naoto.22@shizuoka.ac.jp
+- [ポートフォリオ](https://yazaki7010.github.io/About-Yazaki/)
