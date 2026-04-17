@@ -171,13 +171,6 @@ p.grade{
         <p class="grade">Graduated March 2026</p></div>
     </a>
 
-    <a href="/member/eduards_teteris.html">
-        <img src="/assets/img/members/eduards_teteris.jpg" alt="Exchange student">
-        <div class="caption">
-        <h3 class="fullname">Eduards Teteris</h3>
-        <p class="grade">Graduated September 2024</p></div>
-    </a>
-
     <a>
         <img src="/assets/img/members/anh.jpg" alt="Alumni">
         <div class="caption">
