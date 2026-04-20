@@ -43,9 +43,9 @@ title_en: "Situation-aware Outfit Recommendation with Vision AI and Image Genera
 
 ## 文献情報
 - タイトル：
-    - Retrieval of LoRA Models based on Layer-Wise Weight Embedding without Metadata
+    - Asymmetric Pipeline for Dataset Construction and Situation-Aware Generative Outfit Retrieval Leveraging Differences in Task Difficulty
 - 著者：
-    - Yuro Kanada, Yuma Oe, Huu-Long Pham, Makoto P. Kato, Hiroaki Ohshima, Sumio Fujita, Yoshiyuki Shoji
+    - Yuma Oe, Katsumi Tanaka, Yoshiyuki Shoji
 - 書誌情報：
     - Proc. of the 16th ACM International Conference on Multimedia Retrieval (ICMR 2026), to apperar, 2026
 <!-- - [掲載サイト](https://doi.org/10.1007/978-3-032-11976-6_5) -->
