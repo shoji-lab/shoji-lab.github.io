@@ -1,7 +1,7 @@
 ---
 layout: research
 title: "こんな画像を生成するには、どんなAIを組み合わせるべき？ちょい足し検索"
-description: "ICMR2026「Retrieval of LoRA Models based on Layer-Wise Weight Embedding without Metadata」"
+description: "ICMR2026「Which LoRA Should Be Merged Next? Retrieving an Additional LoRA from a Target Image」"
 date: 20260511
 thumbnail: "/assets/img/researches/sugitaICMR2026/thumb.webp"
 title_en: "Which LoRA should be marged next? Additional LoRA Retrieval"
