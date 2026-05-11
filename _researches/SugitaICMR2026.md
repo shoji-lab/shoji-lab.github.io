@@ -53,7 +53,7 @@ title_en: "Which LoRA should be marged next? Additional LoRA Retrieval"
 
 ![図](/assets/img/researches/sugitaICMR2026/overview.webp "LoRAのIDを2-hotベクトルとして表し、画像と一緒に分類機に入力")
 実際の分類機の構造。
-2つのLoRAのIDと、1つの画像特徴量を入力すると、0-1で「この画像が、それら2つのLoRAで作られたどうか」を
+2つのLoRAのIDと、1つの画像特徴量を入力すると、0-1で「この画像が、それら2つのLoRAで作られたどうか」を判定。確率の高い順に、LoRAを並び替えたら、検索ランキングとして使える。
 
 ## 文献情報
 - タイトル：
