@@ -8,7 +8,7 @@ title_en: "Which LoRA should be marged next? Additional LoRA Retrieval"
 ---
 
 <div class="catch">
-「あと1つ、マージするべき画像生成LoRA」を検索可能に使用！
+「あと1つ、マージするべき画像生成LoRA」を検索可能にしよう！
 </div>
 この研究では、複数のLoRA（画像生成AIに、特定の画風や特徴を与えるためのアダプタ）を使って画像を生成する際に、「あと1つ、ちょい足しするべきLoRA」を検索可能にする手法について提案しています。
 
