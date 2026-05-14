@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 杉田 大地
+title: 杉田 大知
 permalink: /member/daichi_sugita
 ---
 
