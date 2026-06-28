@@ -50,7 +50,7 @@ permalink: /member/yuro_kanada
 発表会議：第18回データ工学と情報マネジメントに関するフォーラム, 2026
 
 5. **Retrieval of LoRA Models based on Layer-Wise Weight Embedding without Metadata**
-著者：Yuro Kanada（Shizuoka University）, Yuma Oe（Shizuoka University）, Huu-Long	Pham（University of Tsukuba）,Makoto P.	Kato（University of Tsukuba）,Hiroaki	Ohshima（University of Hyogo）, Sumio Fujita（LY Corporation）, Yoshiyuki Shoji（Shizuoka University）
+著者：Yuro Kanada（Shizuoka University）, Yuma Oe（Shizuoka University）, Huu-Long	Pham（University of Tsukuba）,Makoto P.	Kato（University of Tsukuba）,Hiroaki	Ohshima（University of Hyogo）, Sumio Fujita（LY Corporation）, Yoshiyuki Shoji（Shizuoka University）  
 発表会議：16th ACM International Conference on Multimedia Retrieval (ICMR 2026), 2026
 
 
