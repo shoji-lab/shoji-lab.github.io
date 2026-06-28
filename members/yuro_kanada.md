@@ -38,7 +38,7 @@ permalink: /member/yuro_kanada
 発表会議：第17回データ工学と情報マネジメントに関するフォーラム, 2025
 
 2. **Learning Disentangled Document Representations Based on a Classical Shallow Neural Encoder**  
-著者: Yuro Kanada（静大）, Sumio Fujita（LINEヤフー株式会社）, Yoshiyuki Shoji（静大）  
+著者: Yuro Kanada（Shizuoka University）, Sumio Fujita（LY Corporation）, Yoshiyuki Shoji（Shizuoka University）  
 発表会議: The 27th International Conference on Information Integration and Web Intelligence (iiWAS2025), 2025  
 
 3. **画風変換LoRAの内部パラメータによるモデルの埋め込み表現の獲得**  
@@ -48,6 +48,11 @@ permalink: /member/yuro_kanada
 4. **画風変換LoRAの内部パラメータによる変換特徴を考慮したモデルの埋め込み表現の獲得**  
 著者：金田悠路（静岡大）、大江優真（静岡大）、ファムフーロン（兵庫県立大）、加藤誠（筑波大・NII）、大島裕明（兵庫県立大）、藤田澄男（LINEヤフー株式会社）、莊司慶行（静岡大）  
 発表会議：第18回データ工学と情報マネジメントに関するフォーラム, 2026
+
+5. **Retrieval of LoRA Models based on Layer-Wise Weight Embedding without Metadata**
+著者：Yuro Kanada（Shizuoka University）, Yuma Oe（Shizuoka University）, Huu-Long	Pham（University of Tsukuba）,Makoto P.	Kato（University of Tsukuba）,Hiroaki	Ohshima（University of Hyogo）, Sumio Fujita（LY Corporation）, Yoshiyuki Shoji（Shizuoka University）
+発表会議：16th ACM International Conference on Multimedia Retrieval (ICMR 2026), 2026
+
 
 ### 受賞歴
 ・令和6年度静岡大学情報学部長学習奨励賞  
