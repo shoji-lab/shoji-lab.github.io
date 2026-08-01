@@ -3,7 +3,7 @@ layout: page
 title: 大倉子龍
 permalink: /member/shiryu_okura
 ---
-![写真](/assets/img/members/shiryu_okura.jpg "大倉")
+![写真](/assets/img/members/shiryu_okura.webp "大倉")
 
 ### 所属
 静岡大学 情報学部行動情報学科
