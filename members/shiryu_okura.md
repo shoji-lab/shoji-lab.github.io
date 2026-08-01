@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 大倉子龍
+title: 大倉 子龍
 permalink: /member/shiryu_okura
 ---
 ![写真](/assets/img/members/shiryu_okura.webp "大倉")
@@ -8,11 +8,8 @@ permalink: /member/shiryu_okura
 ### 所属
 静岡大学 情報学部行動情報学科
 
-### プロフィール
-趣味
-・遊園地巡り
-・一人旅
-・銭湯
+### 趣味
+遊園地巡り、一人旅、銭湯
 
 ### 研究テーマ
 「熱い友情を感じる写真」など、抽象的なテキストクエリにも対応できる個人写真検索
