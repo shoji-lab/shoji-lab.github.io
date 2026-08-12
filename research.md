@@ -112,13 +112,18 @@ img.box {
 }
 
 .paper-info {
-  padding: 16px 18px 18px;
+  padding: 10px 12px 12px;
 }
 
 .paper-title {
   margin: 0;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 0.82rem;
+  line-height: 1.35;
+
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .paper-title a {
@@ -139,10 +144,15 @@ img.box {
 
 /* 長い論文情報は最大3行 */
 .paper-description {
+  margin: 5px 0 0;
+  color: #777;
+  font-size: 0.62rem;
+  line-height: 1.35;
+
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
 }
 
 /* 旧float解除用指定を無効化 */
