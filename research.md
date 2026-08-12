@@ -287,7 +287,153 @@ img.box {
     .topic ul{ margin:6px 0 0 1.2em; }
     .topic strong{ color:#111; }
 
+
+/* ここからリスト切り替え */
+
+.archive-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.archive-view-switch {
+  display: flex;
+  gap: 4px;
+  padding: 3px;
+  background: #eee;
+  border-radius: 8px;
+}
+
+.archive-view-switch button {
+  width: 36px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #777;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.archive-view-switch button[aria-pressed="true"] {
+  background: #fff;
+  color: #174b87;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.research_archive.is-list {
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.research_archive.is-list .paper {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+}
+
+.research_archive.is-list .paper-thumb-link {
+  height: 150px;
+}
+
+.research_archive.is-list img.box {
+  width: 150px;
+  height: 150px;
+  aspect-ratio: 1;
+}
+
+.research_archive.is-list .paper-info {
+  align-self: center;
+  padding: 14px 18px;
+}
+
+.research_archive.is-list .paper-title {
+  font-size: 0.95rem;
+  white-space: normal;
+  display: block;
+}
+
+.research_archive.is-list .paper-description {
+  font-size: 0.7rem;
+  white-space: normal;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+@media (max-width: 720px) {
+  .archive-view-switch {
+    display: none;
+  }
+
+  .research_archive,
+  .research_archive.is-list {
+    grid-template-columns: 1fr;
+  }
+
+  .research_archive.is-list .paper {
+    display: block;
+  }
+
+  .research_archive.is-list .paper-thumb-link {
+    height: auto;
+  }
+
+  .research_archive.is-list img.box {
+    width: 100%;
+    height: auto;
+  }
+}
+
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const archive = document.querySelector(".research_archive");
+  const buttons = document.querySelectorAll(
+    ".archive-view-switch button[data-view]"
+  );
+
+  if (!archive || !buttons.length) return;
+
+  const savedView = localStorage.getItem("researchArchiveView") || "grid";
+
+  function setView(view) {
+    const isList = view === "list";
+
+    archive.classList.toggle("is-list", isList);
+
+    buttons.forEach(function (button) {
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.view === view)
+      );
+    });
+
+    localStorage.setItem("researchArchiveView", view);
+  }
+
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      setView(button.dataset.view);
+    });
+  });
+
+  setView(savedView);
+});
+</script>
+
 
 莊司研究室では、情報アクセス技術を中心に、本当にいろんなトピックで研究を行っています。
 
@@ -523,8 +669,20 @@ img.box {
  -->
 
 
-<h1>実際の研究事例紹介</h1>
+<div class="archive-heading">
+  <h1>実際の研究事例紹介</h1>
 
+  <div class="archive-view-switch" aria-label="表示形式">
+    <button type="button" data-view="grid" aria-pressed="true">
+      ▦
+      <span class="visually-hidden">グリッド表示</span>
+    </button>
+    <button type="button" data-view="list" aria-pressed="false">
+      ☰
+      <span class="visually-hidden">リスト表示</span>
+    </button>
+  </div>
+</div>
 {% assign sorted_researches = site.researches | sort: 'date' | reverse %}
 
 <div class="research_archive">
