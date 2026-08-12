@@ -1,7 +1,7 @@
 ---
 layout: research
 title: "AIに地名について調べさせて、観光コース名を考えてもらおう！"
-description: "BESC2026「」"
+description: "BESC2026「Tourism Course Concept Generation via Dynamic Prompt Extension」"
 date: 20260811
 thumbnail: "/assets/img/researches/yamaguchi2026/thumb.png"
 title_en: "Look Beyond the Landmarks and Discover the Story of Your Journey!"
@@ -59,8 +59,8 @@ title_en: "Look Beyond the Landmarks and Discover the Story of Your Journey!"
 また、地理的特徴を除くと、移動手段、滞在期間、周辺でできる体験に関する表現の正確性が低下しました。
 特に、地理的特徴を与えることで、「日帰り」、「食べ歩き」、「公共交通で巡る」といった表現を、実際の距離や周辺環境に合わせて生成しやすくなることが分かりました。
 
-![図](/assets/img/researches/yamaguchi2026/image.webp "生成AIを使ったレビュー断片の生成手順")
-生成AIを2種類使い、「多くのその観点のレビューに登場する」、「ほかの観点のレビューには登場しない」、「長い文字列」を発見
+![図](/assets/img/researches/yamaguchi2026/image.webp "複数の観光地から、個別の観光地の特徴、観光地間に共通するテーマ、地理的な近さを抽出して生成AIに入力。それらの情報を反映した観光コースコンセプトを生成する。")
+複数の観光地から、個別の観光地の特徴、観光地間に共通するテーマ、地理的な近さを抽出して生成AIに入力。それらの情報を反映した観光コースコンセプトを生成
 
 ## 文献情報
 - タイトル：
