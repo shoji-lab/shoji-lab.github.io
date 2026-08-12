@@ -1,10 +1,10 @@
 ---
 layout: research
-title: ""
-description: ""
+title: "ほかの商品にはない「この商品ならでは」のレビューを見つけよう！"
+description: "BESC2026「Distinctive Review Sentence Extraction via Multi-Product Relative Comparison」"
 date: 20260812
 thumbnail: "/assets/img/researches/yazaki2026BESC/thumb.png"
-title_en: ""
+title_en: "Find Reviews Unique to This Product by Comparing It with Others!"
 ---
 
 <div class="catch">
