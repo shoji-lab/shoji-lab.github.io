@@ -25,10 +25,10 @@ title_en: "Find Reviews Unique to This Product by Comparing It with Others!"
 
 たとえば、評価の高いイヤホンを比較すると、どの商品にも、
 <ul>
-<li> 音質が良い
-<li> 装着感が良い
-<li> バッテリーが長持ちする
-</li>
+<li> 音質が良い</li>
+<li> 装着感が良い</li>
+<li> バッテリーが長持ちする</li>
+</ul>
 といったレビューが書かれています。
 これらは商品の長所ではありますが、どの商品にも当てはまるので、商品を選ぶ決め手にはなりません。
 
@@ -46,8 +46,8 @@ title_en: "Find Reviews Unique to This Product by Comparing It with Others!"
 
 この分類AIを使って、それぞれのレビュー文について、
 <ul>
-<li> 対象商品について書かれた可能性
-<li> 比較対象商品について書かれた可能性
+<li> 対象商品について書かれた可能性</li>
+<li> 比較対象商品について書かれた可能性</li>
 </ul>
 をそれぞれ計算します。
 
