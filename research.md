@@ -15,13 +15,6 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
         margin: 2%;
     }
 
-    div.paper{
-        background-color: #F5F5F5;
-        border-radius: 1%;
-        padding: 2%;
-        margin: 2%;  
-    }
-
     details {
       border: 2px solid #2196F3;
       border-radius: 8px;
@@ -62,23 +55,117 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
       transition: background-color 0.3s, border-color 0.3s;
     }
 
-    img.box {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    float: left;
-    padding-right: 5%;
-    }
+.research_archive {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin: 28px 2%;
+}
 
-    div.paper{
-        overflow: hidden;
-    }
+.paper {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 
-    .paper::after {
-        content: "";
-        display: block;
-        clear: both; /* floatの要素をクリア */
-    }
+  background: #fff;
+  border-radius: 16px;
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.08),
+    0 2px 6px rgba(0, 0, 0, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.paper:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.12),
+    0 4px 10px rgba(0, 0, 0, 0.07);
+}
+
+.paper-thumb-link {
+  display: block;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+img.box {
+  display: block;
+  float: none;
+
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+
+  margin: 0;
+  padding: 0;
+
+  transition: transform 0.25s ease;
+}
+
+.paper:hover img.box {
+  transform: scale(1.015);
+}
+
+.paper-info {
+  padding: 16px 18px 18px;
+}
+
+.paper-title {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.paper-title a {
+  color: #174b87;
+  text-decoration: none;
+}
+
+.paper-title a:hover {
+  text-decoration: underline;
+}
+
+.paper-description {
+  margin: 8px 0 0;
+  color: #777;
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+/* 長い論文情報は最大3行 */
+.paper-description {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* 旧float解除用指定を無効化 */
+.paper::after {
+  content: none;
+}
+
+/* スマートフォンでは1列 */
+@media (max-width: 720px) {
+  .research_archive {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    margin: 22px 0;
+  }
+
+  .paper-title {
+    font-size: 1.05rem;
+  }
+
+  .paper-description {
+    font-size: 0.78rem;
+  }
+}
 
     span.topic{
         color: #0d47a1;
@@ -414,7 +501,7 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
     </details>
   </div>
 
-<h1>実際の研究事例紹介</h1>
+<!-- <h1>実際の研究事例紹介</h1>
 {% assign sorted_researches = site.researches | sort: 'date' | reverse %}
 {% for item in sorted_researches %}
 <div class=paper>
@@ -423,4 +510,42 @@ description: "静岡大学情報学部行動情報学科で情報アクセス技
   <p>{{ item.description }}</p>
 </div>
 {% endfor %}
+ -->
 
+
+<h1>実際の研究事例紹介</h1>
+
+{% assign sorted_researches = site.researches | sort: 'date' | reverse %}
+
+<div class="research_archive">
+  {% for item in sorted_researches %}
+    <article class="paper">
+
+      {% if item.thumbnail %}
+        <a class="paper-thumb-link" href="{{ item.url | relative_url }}">
+          <img
+            class="box"
+            src="{{ item.thumbnail | relative_url }}"
+            alt="{{ item.title | escape }}"
+            loading="lazy"
+          >
+        </a>
+      {% endif %}
+
+      <div class="paper-info">
+        <h2 class="paper-title">
+          <a href="{{ item.url | relative_url }}">
+            {{ item.title }}
+          </a>
+        </h2>
+
+        {% if item.description %}
+          <p class="paper-description">
+            {{ item.description }}
+          </p>
+        {% endif %}
+      </div>
+
+    </article>
+  {% endfor %}
+</div>
