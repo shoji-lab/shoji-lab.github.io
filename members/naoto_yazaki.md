@@ -24,6 +24,10 @@ permalink: /member/naoto_yazaki
    著者: 矢崎 直音（静大）, 田中 克己（関西学院大）, 莊司 慶行（静大）  
    発表会議: 第18回データ工学と情報マネジメントに関するフォーラム, 2026
 
+2. **Distinctive Review Sentence Extraction via Multi-Product Relative Comparison**
+   著者: Naoto Yazaki, Yoshiyuki Shoji, Katsumi Tanaka
+   発表会議: The International Conference on Behavioural and Social Computing (BESC), 2026
+
 ## 受賞
 
 - 東海関西データベースワークショップ2025　最優秀賞
