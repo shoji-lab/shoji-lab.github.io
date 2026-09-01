@@ -126,7 +126,6 @@ p.grade{
 
 <h1>Undergraduate Students (4th Year)</h1>
 <div class="image-tile">
-
     <a href="/member/shiryu_okura.html">
         <img src="/assets/img/members/shiryu_okura.jpg" alt="Undergraduate student">
         <div class="caption">
@@ -156,7 +155,7 @@ p.grade{
         <img src="/assets/img/members/shun_yamaguchi.jpg" alt="Undergraduate student">
         <div class="caption">
         <h3 class="fullname">Shun Yamaguchi</h3>
-        <p class="grade">B4</p></div>
+        <p class="grade">Completed in 2026</p></div>
     </a>
 
     <a href="/member/akito_nakano.html">
