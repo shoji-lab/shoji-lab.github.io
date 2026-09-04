@@ -12,7 +12,7 @@ permalink: /member/yasuyuki_wada
 
 ## 趣味
 
-読書
+読書、料理
 
 ## 研究テーマ
 
@@ -23,6 +23,9 @@ permalink: /member/yasuyuki_wada
 1. **合意形成を目的とした代理情報探索における偏りを抑制するエージェント介入**  
    著者: 和田 泰幸（静大）, 山本 岳洋（兵庫県立大）, 山本 祐輔（名古屋市立大）, 莊司 慶行（静大）  
    発表会議: 第18回データ工学と情報マネジメントに関するフォーラム, 2026
+2. **Agent-Based Interventions to Support Proxy Information Seeking for Group Decision-Making**
+   著者: Yasuyuki Wada, Takehiro Yamamoto and Yoshiyuki Shoji
+   発表会議: International Conference on Information Integration and Web Intelligence (iiWAS2026), 2026.
 
 ## 受賞
 
