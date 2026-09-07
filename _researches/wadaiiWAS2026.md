@@ -2,7 +2,7 @@
 layout: research
 title: "みんなのために調べているのに、なぜか「自分がいいと思うもの」ばかり探してしまう？"
 description: "iiWAS2026「Agent-Based Interventions to Support Proxy Information Seeking for Group Decision-Making」"
-date: 2026XXXX
+date: 20260907
 thumbnail: "/assets/img/researches/wadaiiWAS2026/thumb.png"
 title_en: "How Can We Avoid Self-Centered Search When Searching for a Group?"
 ---
@@ -87,7 +87,7 @@ title_en: "How Can We Avoid Self-Centered Search When Searching for a Group?"
 
 という特徴があることが分かりました。
 
-![図](/assets/img/researches/wada2026/image.webp "みんなのための情報検索中に提示された約100件の介入を分析。どのような介入が、他者への気づきだけで終わらず、実際の検索や意思決定につながるのかを調べた。")
+![図](/assets/img/researches/wada2026/wadaimg.webp "みんなのための情報検索中に提示された約100件の介入を分析。どのような介入が、他者への気づきだけで終わらず、実際の検索や意思決定につながるのかを調べた。")
 
 研究室旅行のプランを生成AIで調べている途中に、「ほかの人ならこう思うかもしれない」という一言を提示。実際に提示された約100件を分析し、どのような内容なら検索や最終的なプランの変更につながるのかを調査。
 
