@@ -3,7 +3,7 @@ layout: page
 title: 白川朝貴
 permalink: /member/tomoki_shirakawa
 ---
-![写真](/assets/img/members/tomoki_shirakawa.png "金田")
+![写真](/assets/img/members/tomoki_shirakawa.png "白川")
 
 ### 所属
 静岡大学 情報学部行動情報学科

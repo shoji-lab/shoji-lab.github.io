@@ -90,7 +90,7 @@ p.grade{
         <img src="/assets/img/members/naito_yoshihara.jpg" alt="Graduate student">
         <div class="caption">
         <h3 class="fullname">Naito Yoshihara</h3>
-        <p class="grade">M2</p></div>        
+        <p class="grade">M2</p></div>
     </a>
 
     <a href="/member/maoto_watanabe.html">
@@ -99,6 +99,7 @@ p.grade{
         <h3 class="fullname">Maoto Watanabe</h3>
         <p class="grade">M2</p></div>
     </a>
+
 </div>
 
 <h1>Master’s Students (1st Year)</h1>
@@ -115,24 +116,16 @@ p.grade{
         <h3 class="fullname">Naoto Yazaki</h3>
         <p class="grade">M1</p></div>        
     </a>
+    <a href="/member/yasuyuki_wada.html">
+    <img src="/assets/img/members/yasuyuki_wada.jpg" alt="Undergraduate student">
+    <div class="caption">
+    <h3 class="fullname">Yasuyuki Wada</h3>
+    <p class="grade">M1</p></div>
+    </a>
 </div>
 
 <h1>Undergraduate Students (4th Year)</h1>
 <div class="image-tile">
-    <a href="/member/shun_yamaguchi.html">
-        <img src="/assets/img/members/shun_yamaguchi.jpg" alt="Undergraduate student">
-        <div class="caption">
-        <h3 class="fullname">Shun Yamaguchi</h3>
-        <p class="grade">B4</p></div>
-    </a>
-
-    <a href="/member/yasuyuki_wada.html">
-        <img src="/assets/img/members/yasuyuki_wada.jpg" alt="Undergraduate student">
-        <div class="caption">
-        <h3 class="fullname">Yasuyuki Wada</h3>
-        <p class="grade">B4</p></div>
-    </a>
-
     <a href="/member/shiryu_okura.html">
         <img src="/assets/img/members/shiryu_okura.jpg" alt="Undergraduate student">
         <div class="caption">
@@ -151,12 +144,20 @@ p.grade{
         <img src="/assets/img/members/tsumugu_somatomo.jpg" alt="Undergraduate student">
         <div class="caption">
         <h3 class="fullname">Tsumugu Somatomo</h3>
-        <p class="grade">B4</p></div>        
+        <p class="grade">B4</p></div>
     </a>
+
 </div>
 
 <h1>Alumni</h1>
 <div class="image-tile">
+    <a href="/member/shun_yamaguchi.html">
+        <img src="/assets/img/members/shun_yamaguchi.jpg" alt="Undergraduate student">
+        <div class="caption">
+        <h3 class="fullname">Shun Yamaguchi</h3>
+        <p class="grade">Completed in 2026</p></div>
+    </a>
+
     <a href="/member/akito_nakano.html">
         <img src="/assets/img/members/akito_nakano.jpg" alt="Alumni">
         <div class="caption">
@@ -184,14 +185,14 @@ p.grade{
         <h3 class="fullname">Momo Inagaki</h3>
         <p class="grade">Completed in 2023</p></div>
     </a>
-    
+
     <a>
         <img src="/assets/img/members/no-photo-01.png" alt="Alumni">
         <div class="caption">
         <h3 class="fullname">Yusuke Hirota</h3>
         <p class="grade">Completed in 2023</p></div>
     </a>
-    
+
     <a>
         <img src="/assets/img/members/no-photo-01.png" alt="Alumni">
         <div class="caption">
@@ -205,4 +206,5 @@ p.grade{
         <h3 class="fullname">Moe Takeuchi</h3>
         <p class="grade">Graduated in 2023</p></div>
     </a>
+
 </div>
