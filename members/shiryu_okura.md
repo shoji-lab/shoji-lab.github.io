@@ -20,5 +20,8 @@ permalink: /member/shiryu_okura
    著者: 大倉 子龍（静大），大江 優真（静大），金田 悠路（静大），莊司 慶行（静大） 
    発表会議: WebDB夏のワークショップ2026
 
+## 受賞歴  
+- 東海関西データベースワークショップ（DBWS）2026　最優秀プレゼンテーション賞
+
 ### 連絡先
 okura.shiryu.23@shizuoka.ac.jp
