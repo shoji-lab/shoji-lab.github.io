@@ -9,10 +9,10 @@ permalink: /member/komi_hiratsuka
 静岡大学 情報学部行動情報学科
 
 ### 趣味
--
+読書、体を動かすこと
 
 ### 研究テーマ
 考え中
 
 ### 連絡先
--
+hiratsuka.komi.24@shizuoka.ac.jp

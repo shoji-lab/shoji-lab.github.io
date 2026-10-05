@@ -2,8 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
 // nav.site-nav{
@@ -33,36 +32,49 @@
 //   border-color: rgba(0,0,0,.45);
 // }
 
-nav.site-nav{
+nav.site-nav {
   z-index: 20;
 }
 
-.lang-switch{
-  position:absolute;
-  top:12px;
-  right:16px;
-  display:flex;
-  gap:8px;
-  z-index:50;
+.lang-switch {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  display: flex;
+  gap: 8px;
+  z-index: 50;
 }
 
-.lang-btn{
-  font-size:12px;
-  padding:4px 8px;
-  border:1px solid rgba(0,0,0,.2);
-  border-radius:999px;
-  text-decoration:none;
-  line-height:1;
+.lang-btn {
+  font-size: 12px;
+  padding: 4px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 999px;
+  text-decoration: none;
+  line-height: 1;
 }
 
-.lang-btn.active{
-  font-weight:700;
-  border-color: rgba(0,0,0,.45);
+.lang-btn.active {
+  font-weight: 700;
+  border-color: rgba(0, 0, 0, 0.45);
 }
 
-@media (max-width: 768px){
-  .lang-switch{
-    right:64px;   /* ハンバーガーぶん左へ逃がす */
-    top:12px;
+@media (max-width: 768px) {
+  .lang-switch {
+    right: 64px; /* ハンバーガーぶん左へ逃がす */
+    top: 12px;
   }
+}
+
+// 記事内の画像を横並びにする
+.post-images {
+  display: flex;
+  gap: 10px;
+  margin: 1em 0;
+}
+
+.post-images img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
 }
