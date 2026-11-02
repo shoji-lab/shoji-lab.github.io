@@ -67,7 +67,7 @@ permalink: /member/yuro_kanada
 発表会議：WebDB夏のワークショップ2026
 
 7. **生成画像を介した疑似適合性フィードバックによる抽象的クエリからの個人写真検索**  
-著者：大倉 子龍，大江 優真，金田 悠路，莊司 慶行　　
+著者：大倉 子龍，大江 優真，金田 悠路，莊司 慶行  
 発表会議：WebDB夏のワークショップ2026
 
 8. **Which LoRA Was Trained on My Image? Retrieving Candidate LoRAs from Internal Weights**  
