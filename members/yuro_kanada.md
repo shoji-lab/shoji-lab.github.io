@@ -29,8 +29,9 @@ permalink: /member/yuro_kanada
 変換特徴を考慮したモデル検索」
 
 現在の研究テーマ  
-「画風変換LoRAの内部パラメータによる  
-変換特徴を考慮したモデル検索」
+➀「相対的に固有な変換特徴の言語化による自然言語クエリからの画風変換LoRAモデル検索」  
+➁「画風変換LoRAの内部パラメータによる著作権保護支援のための学習画像由来LoRA検索」  
+➂「内部重みとプロンプトに基づく画像生成LoRAの適用強度別挙動予測」
 
 ### 論文
 1. **レビューデータからの各次元が意味を持つDisentangledな映画のベクトル表現の獲得**  
@@ -53,6 +54,26 @@ permalink: /member/yuro_kanada
 著者：Yuro Kanada（Shizuoka University）, Yuma Oe（Shizuoka University）, Huu-Long	Pham（University of Tsukuba）,Makoto P.	Kato（University of Tsukuba）,Hiroaki	Ohshima（University of Hyogo）, Sumio Fujita（LY Corporation）, Yoshiyuki Shoji（Shizuoka University）  
 発表会議：16th ACM International Conference on Multimedia Retrieval (ICMR 2026), 2026
 
+4. **Toward Situation-to-Outfit Dataset Construction through Image Captioning for Context-aware Outfit Generation**
+著者：Yuma Oe, Yuro Kanada, Yoshiyuki Shoji
+発表会議：第29回 画像の認識・理解シンポジウム（MIRU2026）, 2026.
+
+5. **相対的に固有な変換特徴の言語化による自然言語クエリからの画風変換LoRAモデル検索**  
+著者：金田 悠路，杉田 大知，大江 優真，ファム フーロン，加藤 誠，大島 裕明，藤田 澄男，莊司 慶行  
+発表会議：WebDB夏のワークショップ2026
+
+6. **画風変換LoRAの内部パラメータによる著作権保護支援のための学習画像由来LoRA検索**  
+著者：金田 悠路，莊司 慶行  
+発表会議：WebDB夏のワークショップ2026
+
+7. **生成画像を介した疑似適合性フィードバックによる抽象的クエリからの個人写真検索**  
+著者：大倉 子龍，大江 優真，金田 悠路，莊司 慶行　　
+発表会議：WebDB夏のワークショップ2026
+
+8. **Which LoRA Was Trained on My Image? Retrieving Candidate LoRAs from Internal Weights**  
+著者：Yuro Kanada and Yoshiyuki Shoji  
+発表会議：Proc. of The 33rd International Conference on Multimedia Modeling (MMM 2027), 2027.
+
 
 ### 受賞歴
 ・令和6年度静岡大学情報学部長学習奨励賞  
@@ -60,7 +81,9 @@ permalink: /member/yuro_kanada
 ・第17回データ工学と情報マネジメントに関するフォーラム　優秀インタラクティブ賞  
 ・東海関西データベースワークショップ2025　優秀賞  
 ・WebDB夏のワークショップ2025　学生奨励賞  
-・第18回データ工学と情報マネジメントに関するフォーラム　学生プレゼンテーション賞 
+・第18回データ工学と情報マネジメントに関するフォーラム　学生プレゼンテーション賞  
+・WebDB夏のワークショップ2026　学生奨励賞  
+
 
 
 ### 連絡先
