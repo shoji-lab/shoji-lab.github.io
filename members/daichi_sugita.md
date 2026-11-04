@@ -21,15 +21,19 @@ permalink: /member/daichi_sugita
 理想の画像を入力とするマージすべき追加LoRAモデルの検索
 
 ## 論文
-1. **Which LoRA Should Be Merged Next? Retrieving an Additional LoRA from a Target Image**  
+1. **相対的に固有な変換特徴の言語化による自然言語クエリからの画風変換LoRAモデル検索**  
+   著者：金田 悠路，杉田 大知，大江 優真，ファム フーロン，加藤 誠，大島 裕明，藤田 澄男，莊司 慶行  
+   発表会議：WebDB夏のワークショップ2026
+
+2. **Which LoRA Should Be Merged Next? Retrieving an Additional LoRA from a Target Image**  
    著者: Daichi Sugita（Shizuoka University）,  Huu-Long Pham（University of Tsukuba）,Makoto P. Kato（University of Tsukuba）,Hiroaki Ohshima（University of Hyogo）, Sumio Fujita（LY Corporation）, Yoshiyuki Shoji（Shizuoka University）  
    発表会議: The 16th ACM International Conference on Multimedia Retrieval (ICMR 2026), 2026
 
-2. **目標画像と使用中のLoRAを入力とするマージすべきLoRAアダプタの検索**  
+3. **目標画像と使用中のLoRAを入力とするマージすべきLoRAアダプタの検索**  
    著者: 杉田 大知 (静岡大), ファム フーロン (兵庫県立大), 藤田 澄男（LINEヤフー株式会社）, 大島 裕明 (兵庫県立大), 莊司 慶行 (静岡大)  
    発表会議: WebDB夏のワークショップ2025
 
-3. **モデルのトークンエンベディングによる目標画像を生成するためにマージすべきLoRAの検索**  
+4. **モデルのトークンエンベディングによる目標画像を生成するためにマージすべきLoRAの検索**  
    著者: 杉田 大知 (静岡大), ファム フーロン (兵庫県立大), 藤田 澄男（LINEヤフー株式会社）, 大島 裕明 (兵庫県立大), 莊司 慶行 (静岡大)  
    発表会議: 第18回データ工学と情報マネジメントに関するフォーラム, 2026
 
