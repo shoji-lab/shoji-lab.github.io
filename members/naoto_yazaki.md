@@ -25,7 +25,7 @@ permalink: /member/naoto_yazaki
    発表会議: 第18回データ工学と情報マネジメントに関するフォーラム, 2026
 
 2. **Distinctive Review Sentence Extraction via Multi-Product Relative Comparison**
-   著者: Naoto Yazaki, Yoshiyuki Shoji, Katsumi Tanaka
+   著者: Naoto Yazaki, Katsumi Tanaka, Yoshiyuki Shoji
    発表会議: The International Conference on Behavioural and Social Computing (BESC), 2026
 
 ## 受賞
@@ -33,6 +33,7 @@ permalink: /member/naoto_yazaki
 - 東海関西データベースワークショップ2025　最優秀賞
 - 第18回データ工学と情報マネジメントに関するフォーラム　学生プレゼンテーション賞
 - 第18回データ工学と情報マネジメントに関するフォーラム　優秀インタラクティブ賞
+- 東海関西データベースワークショップ2026　最優秀賞
 
 ## 連絡先・外部サイト
 
