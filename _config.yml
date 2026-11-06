@@ -100,5 +100,6 @@ defaults:
 # for template
 exclude:
   - _research/template.md
+  - README.md
 
 ###########################################
