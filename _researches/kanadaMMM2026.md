@@ -3,7 +3,7 @@ layout: research
 title: "この画像を学習したAIはどれ！？学習データからモデルを検索"
 description: "MMM 2027「Which LoRA Was Trained on My Image? Retrieving Candidate LoRAs from Internal Weights」"
 date: 20261124
-thumbnail: "/assets/img/researches/kanadaMMM2026/thumb.png"
+thumbnail: "/assets/img/researches/kanadaMMM2026/thumb.webp"
 title_en: "Which AI Was Trained on My Art? TrainingData-oriented Model Search"
 ---
 
